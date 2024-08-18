@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solution Page | RGUKT BASAR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="basar_logo_on_title.png" type="image/svg+xml">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="head-line">
+                <div class="logo">
+                    <a href="https://www.rgukt.ac.in/" target="_blank">
+                        <img src="basar.png" alt="RGUKT Logo"/>
+                    </a>
+                </div>
+                <div class="line">
+                    <p class="college">Rajiv Gandhi University of Knowledge Technologies</p>
+                    <p class="basarname">Basar</p>
+                </div>
+                <div class="python">
+                    <a href="https://www.python.org/" target="_blank">
+                        <img src="pythonlogo.png" alt="Python Logo"/>
+                    </a>
+                    <a class="psf" href="https://www.python.org/psf/trademarks/">
+                        <p class="python-attribution">Python logo is a trademark of the Python Software Foundation.</p>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <ul class="navigation-menu" role="menubar" aria-label="Main Navigation">
+                <li>
+                    <button>
+                        <a href="Solution_Page_Unit-1.html">Home</a>
+                    </button>
+                </li>
+                <li><button class="rows">
+                    <a href="https://www.rgukt.ac.in/about-introduction.html">About RGUKT</a></button>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Popular IDE's</button>
+                        <div class="dropdown-content">
+                            <a href="https://www.jetbrains.com/pycharm/download/?section=windows" target="_blank">
+                                PyCharm
+                            </a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a  href="https://www.spyder-ide.org/" target="_blank">Spyder</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://code.visualstudio.com/download" target="_blank">VS Code</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://www.pydev.org/download.html" target="_blank">PyDev</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://atom-editor.cc/" target="_blank">Atom</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://jupyter.org/install" target="_blank">Jupyter Notebook</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Mobile Apps</button>
+                        <div class="dropdown-content">
+                            <a href="https://play.google.com/store/search?q=pydroid&c=apps" target="_blank">Pydroid3</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/search?q=coding%20python&c=apps" target="_blank">Coding Python</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/search?q=mimo&c=apps" target="_blank">Mimo</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/apps/details?id=org.qpython.qpy3" target="_blank">Qpython</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Buy Book</button>
+                        <div class="dropdown-content">
+                            <a href="https://www.amazon.in/PYTHON-PROGRAMMING-PROBLEM-SOLVING-APPROACH/dp/0199480176" target="_blank">Python-Reema Thareja</a>
+                        </div>
+                    </div>
+                </li>
+                <li><button class="rows"><a href="https://hub.rgukt.ac.in/hub/default/user/login" target="_blank">Go To Hub</a></button></li>
+                <li><button class="rows">
+                    <a href="Solution_Page_About-Creator.html">About the Creator</a>
+                </button></li>
+                <li>
+                    <input class="theme" type="checkbox" id="darkmode-toggle"/>
+                    <label for="darkmode-toggle"></label>
+                </li>
+            </ul>
+        </nav>
+        <script src="script.js"></script>
+        <section class="content">
+            <h3 class="content-p2">Content</h3>
+            <hr width="100%" size="1px" color="grey">
+            <h3 class="p2-units">Unit-VI</h3>
+            <h3 class="modules">Modules</h3>
+            <div class= "modules-content-container">
+                <div class="module-container">
+                    <p>
+                        A module allows you to logically organize your Python code. Grouping related code into a 
+                        module makes the code easier to understand and use. A module is simply a file containing 
+                        python code, it may contain functions, classes etc. Modules allow definitions to be saved for 
+                        later access.                  
+                    </p>
+                    <p>
+                        <strong>Importing modules</strong><br>
+                        We need to import the module in our python code to use its functionality. Modules are 
+                        imported by using built-in import command, without the .py extension Python provides 
+                        three types of statements as defined below.   
+                        <ul>
+                            <li>
+                                The import statement                                 
+                            </li>
+                            <li>
+                                The from-import statement
+                            </li>
+                            <li>
+                                The from...import *
+                            </li>
+                        </ul>                     
+                    </p>
+                    <p>
+                        <strong>The import statement</strong><br>
+                        The import statement is used to import all the functionality of one module into another. <br>
+                        <strong>Syntax: </strong> import module_name
+                    </p>
+                    <div class="module_image_container">
+                        <div class="module_image">
+                            <img src="import_statement_example.png">
+                        </div>
+                    </div>
+                    <p>
+                        <strong>The from import statement</strong><br>
+                        Python's from statement lets you import specific attributes from a module into the current 
+                        namespace.<br>
+                        <strong>Syntax: </strong>from module_name import name1                        
+                    </p>
+                    <div class="module_image_container">
+                        <div class="module_image">
+                            <img src="from_import_statement.png">
+                        </div>
+                    </div>
+                    <p>
+                        <strong>The from....import *</strong><br>
+                        Statement It is also possible to import all names [functions] from a module by using * 
+                        (Asterisk) symbol - as import * <br>
+                        <strong>Syntax: </strong>from module_name import *                
+                    </p>
+                    <div class="module_image_container">
+                        <div class="module_image">
+                            <img src="from...import_example.png">
+                        </div>
+                    </div>
+                    <h3 class="random_module">Random Module</h3><br>
+                    <ol>
+                        <li>
+                            <strong>randint( )</strong>
+                            <ul>
+                                <li>
+                                    The function randint( ) generates the random number between start and end 
+                                    range.                                                                        
+                                </li>
+                                <li>
+                                    <strong>Syntax: </strong>random.randint(start, end)                                   
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>choice(rnlist)</strong>
+                            <ul>
+                                <li>
+                                    The choice( ) function return the random value from the list.Here random 
+                                    value would be generated from list rnlist.                                    
+                                </li>
+                                <li>
+                                    <strong>Syntax:</strong> random.choice(rnlist) 
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>shuffle( )</strong>
+                            <ul>
+                                <li>
+                                    The shuffle function, shuffles the elements in list in place. 
+                                    random.shuffle(list1) list1 is the list provided by user.                                                                     
+                                </li>
+                                <li>
+                                    <strong>Syntax:</strong>  random.shuffle(seq)
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>randrange( )</strong>
+                            <ul>
+                                <li>
+                                    It returns the random number selected from range (start, stop, step).                                                                    
+                                </li>
+                                <li>
+                                    <strong>Syntax:</strong>  random.randrange(start, stop[, step])
+                                </li>
+                                <li>
+                                    start and stop specify the range of random numbers. step to be added in a 
+                                    random number.                                                         
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>random( )</strong>
+                            <ul>
+                                <li>
+                                    It returns a random float x, such that 0 ≤ x&lt;1                                                                     
+                                </li>
+                                <li>
+                                    <strong>Syntax:</strong>  random.random()
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Uniform(a, b)</strong>
+                            <ul>
+                                <li>
+                                    uniform(a, b) Return a random floating point number between a and b 
+                                    inclusive.                                                                                                        
+                                </li>
+                                <li>
+                                    <strong>Syntax:</strong>  random.uniform(a,b)
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="horizontal-line">
+                <hr width="100%" size="1px" color="grey">
+            </div>
+            <h3 class="module-concepts-problems">Problems on 'Modules'</h3>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q1.Write a program to roll the dice until you give exit (using random function).
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+import random
+
+user_input = input("Enter start to start the program: ").lower( )
+
+if user_input == "yes":
+while True:
+    print("Dice number: ",random.randint(1, 6))
+
+    val = input("Enter exit to exit the program: ")
+
+    if val == "exit":
+        break
+    else:
+        pass
+else:
+print("Invalid input.")
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q2.Generate a password with length "passlen" with no duplicate characters in the 
+                        password.                            
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+import random, string
+
+def password(pass_len):
+
+characters = string.ascii_letters + string.digits + string.punctuation
+
+generated_password = "".join(random.sample(characters, pass_len))
+
+return generated_password
+
+result = password(int(input("Enter your password length: ")))
+print(result)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q3.Write a program which randomly picks an integer from 1 to 100. Your program 
+                        should prompt the user for guesses - if the user guesses incorrectly, it should print 
+                        whether the guess is too high or too low. If the user guesses correctly, the program 
+                        should print how many guesses the user took to guess the right answer. You can 
+                        assume that the user will enter valid input.                            
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+import random
+
+com_choice = random.randint(1, 100)
+guess_count = 0
+
+while True:
+user_choice = int(input("Enter your guess in betweem 1 to 100: "))
+
+if user_choice == com_choice:
+    print("No.of guesses: ", guess_count)
+    break
+
+elif user_choice > com_choice:
+    print("Your guess is too high.")
+    guess_count += 1
+
+elif user_choice &lt; com_choice:
+    print("Your guess is too low.")
+    guess_count += 1
+
+else:
+    guess_count += 1
+                </pre>
+            </div>
+            <hr size="1px" width="100%">
+            <div class="practice-questions">
+                <h3 class="tasks">Extra Tasks</h3>
+            </div>            
+            <div class="details">
+                <div class="tier">
+                    <div class="question-container">
+                        <h3 class="module-concepts-problems">Modules</h3>
+                        <p>
+                            Try questions by creating your own function.
+                        </p>
+                        <p class="questions">
+                            Q1. Write a program that simulates rolling two dice and prints their values. If the sum is 7 or 11, print a special message.
+                        </p>
+                        <p class="questions">
+                            Q2. Write a program that simulates shuffling a deck of cards (list of 52 cards) and prints the top 5 cards after shuffling.
+                        </p>
+                        <p class="questions">
+                            Q3. Create a program that generates 10 random lottery numbers between 1 and 100 and sorts them in ascending order.
+                        </p>
+                        <p class="questions">
+                            Q4. Write a program that randomly selects 3 students from a list of names to assign as group leaders.
+                        </p>
+                        <p class="questions">
+                            Q5. Create a program that removes all punctuation from a sentence using the string module.
+                        </p>
+                        <p class="questions">
+                            Q6. Write a program that calculates and prints the area of a circle using the math module.
+                        </p>
+                        <p class="questions">
+                            Q7. Write a program that counts the number of vowels, consonants, and digits in a string, using the string module.
+                        </p>
+                    </div>
+                </div>
+            </div>         
+        </section>
+        <button class="scroll-up-button" onclick="topFunction()" id="myBtn" title="Go to top">
+            <div class="top-emoji">&#8682;</div>
+            Top<br>
+        </button>
+    </body>
+</html>

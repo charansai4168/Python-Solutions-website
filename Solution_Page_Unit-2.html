@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solution Page | RGUKT BASAR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="basar_logo_on_title.png" type="image/svg+xml">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="head-line">
+                <div class="logo">
+                    <a href="https://www.rgukt.ac.in/" target="_blank">
+                        <img src="basar.png" alt="RGUKT Logo"/>
+                    </a>
+                </div>
+                <div class="line">
+                    <p class="college">Rajiv Gandhi University of Knowledge Technologies</p>
+                    <p class="basarname">Basar</p>
+                </div>
+                <div class="python">
+                    <a href="https://www.python.org/" target="_blank">
+                        <img src="pythonlogo.png" alt="Python Logo"/>
+                    </a>
+                    <a class="psf" href="https://www.python.org/psf/trademarks/">
+                        <p class="python-attribution">Python logo is a trademark of the Python Software Foundation.</p>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <ul class="navigation-menu" role="menubar" aria-label="Main Navigation">
+                <li>
+                    <button>
+                        <a href="Solution_Page_Unit-1.html">Home</a>
+                    </button>
+                </li>
+                <li><button class="rows">
+                    <a href="https://www.rgukt.ac.in/about-introduction.html">About RGUKT</a></button>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Popular IDE's</button>
+                        <div class="dropdown-content">
+                            <a href="https://www.jetbrains.com/pycharm/download/?section=windows" target="_blank">
+                                PyCharm
+                            </a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a  href="https://www.spyder-ide.org/" target="_blank">Spyder</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://code.visualstudio.com/download" target="_blank">VS Code</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://www.pydev.org/download.html" target="_blank">PyDev</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://atom-editor.cc/" target="_blank">Atom</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://jupyter.org/install" target="_blank">Jupyter Notebook</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Mobile Apps</button>
+                        <div class="dropdown-content">
+                            <a href="https://play.google.com/store/search?q=pydroid&c=apps" target="_blank">Pydroid3</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/search?q=coding%20python&c=apps" target="_blank">Coding Python</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/search?q=mimo&c=apps" target="_blank">Mimo</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/apps/details?id=org.qpython.qpy3" target="_blank">Qpython</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Buy Book</button>
+                        <div class="dropdown-content">
+                            <a href="https://www.amazon.in/PYTHON-PROGRAMMING-PROBLEM-SOLVING-APPROACH/dp/0199480176" target="_blank">Python-Reema Thareja</a>
+                        </div>
+                    </div>
+                </li>
+                <li><button class="rows"><a href="https://hub.rgukt.ac.in/hub/default/user/login" target="_blank">Go To Hub</a></button></li>
+                <li><button class="rows">
+                    <a href="Solution_Page_About-Creator.html">About the Creator</a>
+                </button></li>
+                <li>
+                    <input class="theme" type="checkbox" id="darkmode-toggle"/>
+                    <label for="darkmode-toggle"></label>
+                </li>
+            </ul>
+        </nav>
+        <div class="backgroundmode"></div>
+        <script src="script.js"></script>
+        <section class="content">
+            <h3 class="content-p2">Content</h3>
+            <hr width="100%" size="1px" color="grey">
+            <h3 class="p2-units">Unit-II</h3>
+            <h3 class="statements">Conditional Statements</h3>
+            <div class="condition-statement-container">
+                <div class="statement-container">
+                    <h3 class="if">if Statement</h3>
+                    <p>
+                        The &apos;if&apos; statement is used to execute a block of code only if a condition is true.Otherwise 
+                        interpreter will moves out from the if block and execute the block of codes out side of the if statement.
+                    </p>
+                    <p>
+                        <strong>Note:</strong> The code outside the &apos;if&apos; statement will be executed whether the &apos;if&apos;
+                        condition if &apos;True&apos; or &apos;False&apos;, after the interpreter checks the &apos;if&apos; statement.
+                    </p>
+                </div>
+                <div class="statement-img-container">
+                    <div class="image-size-modifier">
+                        <img class="statement-image" src="if-statement.png"/>
+                    </div>
+                </div>
+                <div class="code-example-container">
+                    <div class="code-example-image">
+                        <img class="if-code-example-image" src="if-code.png">
+                    </div>
+                    <div class="code-explanation">
+                        <p class="num-line">
+                            <strong>&apos;num = int(input("Enter your num: "))&apos;</strong>
+                        </p>
+                        <p class="num-line">
+                            -> This line prompts the user to enter a number with the message "Enter your num: ".
+                        </p>
+                        <p class="num-line">
+                            -> The input function takes the input as a string from user, and &apos;int()&apos; converts the string to an integer.
+                        </p>
+                        <p class="num-line">
+                            -> The integer value from the user is then stored in the variable &apos;num&apos;.
+                        </p>
+                        <p class="if-line">
+                            <strong>&apos;if(num % 5 == 0):&apos;</strong>
+                        </p>
+                        <p class="if-line">
+                            -> This condition statement that checks if the value or integer stored in &apos;num&apos; variable is divisible 5.
+                        </p>
+                        <p class="if-line">
+                            -> The &apos;%&apos; operator calculates the remainder of &apos;num&apos; divided by 5.If the remainder is &apos;0&apos;, it
+                            means &apos;num&apos; is divisible by 5.
+                        </p>
+                        <p class="print-line">
+                            <strong>&apos;print("number is divisible by 5.")&apos;</strong>
+                        </p>
+                        <p class="print-line">
+                            -> If the condition is &apos;True&apos; (i.e., if &apos;num&apos; is divisible by 5), this line will execute and print &apos;number is divisible by 5.&apos;.
+                        </p>
+                        <p class="success-line">
+                            <strong>&apos;print("code run&apos;s successfully.")&apos;</strong>
+                        </p>
+                        <p class="success-line">
+                            -> This line is outside the &apos;if&apos; block, so it will execute regardless of whether the &apos;if&apos; condition is true or false.
+                        </p>
+                        <p class="success-line">
+                            -> Without any relation with if block, it simply prints &quot; code run&apos;s successfully&quot;.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="condition-statement-container">
+                <div class="statement-container">
+                    <h3 class="if">if-else Statement</h3>
+                    <p>
+                        The &apos;if-else&apos; statement is used to execute two block of codes based on true or false. If the condition
+                        is true the body of if will be executed, if the condition false the body of  else will be executed.
+                    </p>
+                    <p>
+                        <strong>Note:</strong> There no condition for else.
+                    </p>
+                </div>
+                <div class="statement-img-container">
+                    <div class="image-size-modifier">
+                        <img class="statement-image" src="if-else-statement.png"/>
+                    </div>
+                </div>
+                <div class="code-example-container">
+                    <div class="code-example-image">
+                        <img class="if-code-example-image" src="if-else-img.png">
+                    </div>
+                    <div class="code-explanation">
+                        <p class="num-line">
+                            <strong>&apos;num1 = int(input("Enter your num: "))&apos;</strong>
+                        </p>
+                        <p class="num-line">
+                            -> This line prompts the user to enter a number with the message "Enter your num: ".
+                        </p>
+                        <p class="num-line">
+                            -> The input function takes the input as a string from user, and &apos;int()&apos; converts the string to an integer.
+                        </p>
+                        <p class="num-line">
+                            -> The integer value from the user is then stored in the variable &apos;num&apos;.
+                        </p>
+                        <p class="if-line">
+                            <strong>&apos;if(num1 % 5 == 0):&apos;</strong>
+                        </p>
+                        <p class="if-line">
+                            -> This condition statement that checks if the value or integer stored in &apos;num&apos; variable is divisible 5.
+                        </p>
+                        <p class="if-line">
+                            -> The &apos;%&apos; operator calculates the remainder of &apos;num&apos; divided by 5.If the remainder is &apos;0&apos;, it
+                            means &apos;num&apos; is divisible by 5.
+                        </p>
+                        <p class="print-line">
+                            <strong>&apos;print("number is divisible by 5.")&apos;</strong>
+                        </p>
+                        <p class="print-line">
+                            -> If the condition is &apos;True&apos; (i.e., if &apos;num&apos; is divisible by 5), this line will execute and print &apos;number is divisible by 5.&apos;.
+                        </p>
+                        <p class="else-line">
+                            <strong>&apos;else:&apos;</strong>
+                        </p>
+                        <p class="else-line">
+                            -> This &apos;else&apos; block is executed if the &apos;if&apos; condition is &apos;False&apos;(i.e., if &apos;num1&apos; is not divisible by 5).
+                        </p>
+                        <p class="print-line">
+                            <strong>&apos;print("the number is not divisible by 5.")&apos;</strong>
+                        </p>
+                        <p class="print-line">
+                            -> If the &apos;else&apos; block is reached (because num1 is not divisible by 5), this line will execute and print "the number is not divisible by 5.".
+                        </p>
+                        <p class="success-line">
+                            <strong>&apos;print("Process finished with exit code 0.")&apos;</strong>
+                        </p>
+                        <p class="success-line">
+                            -> This line is outside the &apos;if&apos; block, so it will execute regardless of whether the &apos;if&apos; condition is true or false.
+                        </p>
+                        <p class="success-line">
+                            -> It prints "Process finished with exit code 0", which is often used to indicate that the program has completed without errors.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="condition-statement-container">
+                <div class="statement-container">
+                    <h3 class="if">if-elif-else Statement</h3>
+                    <p>
+                        The &apos;if-elif-else&apos; statement is used when we have multiple conditions to check. If the condition is True
+                        it will execute the body of if, if it false the interpreter head over to elif statement to check the condition, if the
+                        condition is satisfies then the body of elif will be executed, if condition is false the interpreter move on to else block
+                        and execute the else block.
+                    </p>
+                </div>
+                <div class="statement-img-container">
+                    <div class="image-size-modifier">
+                        <img class="statement-image" src="if-elif-else-statement.png"/>
+                    </div>
+                </div>
+                <div class="code-example-container">
+                    <div class="code-example-image">
+                        <img class="if-code-example-image" src="if-elif-else.png">
+                    </div>
+                    <div class="code-explanation">
+                        <p class="num-line">
+                            <strong>&apos;num = int(input("Enter your num: "))&apos;</strong>
+                        </p>
+                        <p class="num-line">
+                            -> This line prompts the user to enter a number with the message "Enter your num: ".
+                        </p>
+                        <p class="num-line">
+                            -> The input function takes the input as a string from user, and &apos;int()&apos; converts the string to an integer.
+                        </p>
+                        <p class="num-line">
+                            -> The integer value from the user is then stored in the variable &apos;num&apos;.
+                        </p>
+                        <p class="if-line">
+                            <strong>&apos;if num % 2 == 0:&apos;</strong>
+                        </p>
+                        <p class="if-line">
+                            This &apos;if&apos; statement checks if the number stored in &apos;num&apos; is divisible by 2.
+                        </p>
+                        <p class="if-line">
+                            The &apos;%&apos; operator calculates the remainder when &apos;num&apos; is divided by 2. If the remainder is &apos;0&apos;, it means &apos;num&apos; is divisible by 2.
+                        </p>
+                        <p class="print-line">
+                            <strong>&apos;print("number is divisible by 2.")&apos;</strong>
+                        </p>
+                        <p class="print-line">
+                            If the condition in the &apos;if&apos; statement is &apos;True&apos; (i.e., &apos;num&apos; is divisible by 2), this line will execute and print "number is divisible by 2.".
+                        </p>
+                        <p class="elif-line">
+                            <strong>&apos;elif num % 5 == 0:&apos;</strong>
+                        </p>
+                        <p class="elif-line">
+                            -> If the &apos;if&apos; condition is &apos;False&apos; (i.e., num is not divisible by 2), the program checks the &apos;elif&apos; condition.
+                        </p>
+                        <p class="elif-line">
+                            -> This &apos;elif&apos; statement checks if num is divisible by 5.
+                        </p>
+                        <p class="elif-line">
+                            -> The &apos;%&apos; operator calculates the remainder when num is divided by 5. If the remainder is 0, it means num is divisible by 5.
+                        </p>
+                        <p class="print-line">
+                            <strong>&apos;print("number is divisible by 5.")&apos;</strong>
+                        </p>
+                        <p class="print-line">
+                            -> If the condition is &apos;True&apos; (i.e., if &apos;num&apos; is divisible by 5), this line will execute and print &apos;number is divisible by 5.&apos;.
+                        </p>
+                        <p class="else-line">
+                            <strong>&apos;else:&apos;</strong>
+                        </p>
+                        <p class="else-line">
+                            -> If both the &apos;if&apos; and elif conditions are &apos;False&apos; (i.e., &apos;num&apos; is neither divisible by 2 nor 5), the program will execute this &apos;else&apos; block.
+                        </p>
+                        <p class="print-line">
+                            <strong>&apos;print("the number is not divisible by 5.")&apos;</strong>
+                        </p>
+                        <p class="print-line">
+                            -> If the &apos;else&apos; block is reached (because num1 is not divisible by 5), this line will execute and print "the number is not divisible by 5.".
+                        </p>
+                        <p class="success-line">
+                            <strong>&apos;print("Process finished with exit code 0.")&apos;</strong>
+                        </p>
+                        <p class="success-line">
+                            -> This line is outside the &apos;if&apos; block, so it will execute regardless of whether the &apos;if&apos; condition is true or false.
+                        </p>
+                        <p class="success-line">
+                            -> It prints "Process finished with exit code 0", which is often used to indicate that the program has completed without errors.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="horizontal-line">
+                <hr width="100%" size="1px" color="grey">
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                      <p class="questions">Q1.Write a program to find larger of 3 Numbers.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+num1 = int(input("Enter your first value: "))
+num2 = int(input("Enter your second value: "))
+num3 = int(input("Enter your third value: "))
+
+if(num1 > num2) and (num1 > num3):
+    print(num1," is larger")
+elif(num2 > num3) and (num3 > num1):
+    print(num2," is larger")
+else:
+    print(num3," is larger")
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                      <p class="questions">Q2.Write a program to find whether a given year is leap year or not.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+year = int(input("Enter your year: "))
+
+if(year % 4 == 0 and year % 100!= 0):
+    print(year, " is a leap year")
+else:
+    print(year, " is not a leap year")
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                      <p class="questions">Q3.Write a program to determine whether you entered a character is vowel or not.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+val = input("Enter your character: ").lower() #makes the every character into lower case. 
+
+vowel_list = ['a', 'e', 'i', 'o', 'u'] # list containing vowels.
+
+if( val in vowel_list) : # to check entered character is in list or not.
+    print(val, " is a vowel")
+else:
+    print(val, " is not an vowel")
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                      <p class="questions">Q4.Write a program that prompts user to enter a number between 1-7 and then display the corresponding day of week.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+day = int(input("Enter any number between 1-7: "))
+
+if(day == 1):
+    print("The corresponding day of the week is 'Sunday'. ")
+if(day == 2):
+    print("The corresponding day of the week is 'Monday'. ")
+if(day == 3):
+    print("The corresponding day of the week is 'Tuesday'. ")
+if(day == 4):
+    print("The corresponding day of the week is 'Wednesday'. ")
+if(day == 5):
+    print("The corresponding day of the week is 'Thursday'. ")
+if(day == 6):
+    print("The corresponding day of the week is 'Friday'. ")
+if(day == 7):
+    print("The corresponding day of the week is 'Saturday'. ")
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                      <p class="questions">Q5.Write a program to check whether a number is divisible by 5 and 11.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+num = int(input("Enter your number: "))
+if( num % 5 == 0 and num % 11 == 0 ):
+    print(num," is divisible by 5 and 11.")
+else:
+    print(num," is not divisible by 5 and 11.")
+               </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                      <p class="questions">Q6.Write a python program that perform calculator operations.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+print("Options:" "\n" "Enter 1 to perform addition."
+"\n" "Enter 2 to perform subtraction."
+"\n" "Enter 3 to perform multiplication."
+"\n" "Enter 4 to perform division.")
+
+choice_list = [1,2,3,4]
+while True:
+    choice = int(input("Enter (1/2/3/4): "))
+    if (choice in choice_list):
+        num1 = int(input("Enter your number1: "))
+        num2 = int(input("Enter your number2: "))
+
+        if (choice == 1):
+            print(num1 + num2)
+        elif (choice == 2):
+            print(num1 - num2)
+        elif (choice == 3):
+            print(num1 * num2)
+        elif (choice == 4):
+            if(num2 == 0):
+                print("invalid value, can't divide with zero.")
+            else:
+                print(num1 / num2)
+    else :
+        print ("invalid input")
+    another_operation = input("Enter 'yes' to perform another operation or 'no' to cancel the operation: ").lower()
+    if(another_operation == 'yes'):
+        continue
+    elif(another_operation == 'no'):
+        break
+    else:
+        print("Your operation has been canceled")
+        break
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                      <p class="questions">Q7.Write a python program that takes input as month number and print number of days in that month.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+#best for beginners
+months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+var = input("Enter the month number: ")
+
+if(var in months):
+    if(var == 1):
+        print("Jan : 31days.")
+    elif(var == 2):
+        print("Feb : 28days.")
+    elif(var == 3):
+        print("Mar : 31days.")
+    elif(var == 4):
+        print("Apr : 30days.")
+    elif(var == 5):
+        print("May : 31days.")
+    elif(var == 6):
+        print("June : 30days")
+    elif(var == 7):
+        print("July : 31days.")
+    elif(var == 8):
+        print("Aug : 31days.")
+    elif(var == 9):
+        print("Sep : 30days.")
+    elif(var == 10):
+        print("Oct : 31days.")
+    elif(var == 11):
+        print("Nov : 30days.")
+    elif(var == 12):
+        print("Dec : 31days.")
+else:
+    print("Enter a valid number.")
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                      <p class="questions">Q8.Write a program to calculate profit or lose.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+val1 = int(input("Enter your total revenue: "))
+val2 = int(input("Enter total cost: "))
+
+result = val1-val2
+if(result > 0):
+    print(result, " profit")
+elif(result &lt; 0):
+    print(result, " loss")
+else:
+    print("no profit, no loss.")
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                      <p class="questions">Q9.Write a program that promotes user to enter a character (O, A, B, C, F).
+                        Then using if, elif-else construct display outstanding, very good, goo, average and fail respectively.
+                      </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+print("A, O, B, C, F")
+
+val = input("Enter the shown character: ").lower()
+
+if(val in ['a', 'o', 'b', 'c', 'f']):
+    if(val == 'a'):
+        print("Very good.")
+    elif(val == 'o'):
+        print("Outstanding.")
+    elif(val == 'B'):
+        print("Good")
+    elif(val == 'c'):
+        print("Average.")
+    elif(val == 'f'):
+        print("Fail.")
+else:
+    print("Enter a valid character.")
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                      <p class="questions">Q10.Write a program to calculate roots of a quadratic equation.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+val1 = int(input("Enter the value of 'x^2' coefficient : "))
+val2 = int(input("Enter the value of 'x' coefficient : "))
+val3 = int(input("Enter the value of constant : "))
+
+result = (val2 * val2) - (4 * val1 * val3)
+val4 = 2*val1
+
+if result > 0 :
+    print("Real roots.")
+    root1 = (-val2 + result**0.5) / val4
+    root2 = (-val2 - result**0.5) / val4
+
+    print("Root1 : ", root1)
+    print("Root2 : ", root2)
+elif result == 0:
+    print("Equal roots.")
+    print("Root1 and Root2 : ", root1)
+else:
+    print("Imaginary roots.")
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                      <p class="questions">
+                        Q11.A company decides to give bonus to all it's employees on Diwali.A 5% bonus on salary is to given
+                        to the male workers and 10% to the female workers. Write a python program to enter the salary of the
+                        employee and sex of the employee. if the salary of the employee is less than RS /- 10,000 then the employee gets 
+                        an extra 2% bonus on salary.calculate the bonus that has to be given to the employee and display the
+                        salary that the employee will get.
+                      </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+gender = input("Enter your gender: ").lower()
+salary = int(input("Enter your salary: "))
+
+if(gender == 'm'):
+    if( salary < 10000):
+        print("Salary: ", salary * 0.07 + salary)
+    else :
+        print("Salary: ", salary * 0.05 + salary)
+elif(gender == 'f'):
+    if( salary < 10000):
+        print("Salary: ", salary * 0.12 + salary)
+    else :
+        print("Salary: ", salary * 0.1 + salary)
+else :
+    print("Invalid input")
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                      <p class="questions">
+                        Q12.Write a program to calculate tax given the following condition.
+                        If income is less than 1,50,000 no tax.
+                        If income is 1,50,000 - 3,00,000 then charge 10% tax.
+                        If income is 3,00,000 - 5,00,000 then charge 20% tax.
+                        If income is above 5,00,000 then charge 30% tax.
+                      </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+income = int(input("Enter your income: "))
+
+if( income &lt; 1_50_000 ):
+    print("no tax")
+elif( 3_00_000 > income > 1_50_000 ):
+    print("10% charge.")
+    print("Tax: ", income * 0.1)
+elif( 5_00_000 > income &lt; 3_00_000 ):
+    print("20% charge.")
+    print("Tax: ", income * 0.2)
+else :
+    print("30% charge.")
+    print("Tax: ", income * 0.3)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q13.Write a program to enter the marks of a student in four subjects. Then calculate the total and aggregate, and display the grade obtained by student.
+                        If the student scores an aggregate greater than 75%, then the grades in Distinction. If aggregate is 60 >= and &lt; 75,
+                        then the grade is First Division. If the aggregate is 50 >= and &lt; 60, then the grade is Second Division. If 
+                        aggregate is 40>= and  &lt;50 , then the grade is Third Division. Else the grade is Fail.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+sub1 = int(input("Enter your Score in subject1: "))
+sub2 = int(input("Enter your Score in subject2: "))
+sub3 = int(input("Enter your Score in subject3: "))
+sub4 = int(input("Enter your Score in subject4: "))
+
+avg = (sub1 + sub2 + sub3 + sub4)/4
+
+if avg > 75:
+    print("Grade is Distinction.")
+elif 60 &lt; avg &lt; 75:
+    print("Grade is 1'st Division.")
+elif 50 &lt; avg &lt; 60:
+    print("Grade is 2'nd Division")
+elif 40 &lt; avg &lt; 50:
+    print("Garde is 3'rd Division.")
+else:
+    print("Grade is Fail.")
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                      <p class="questions">
+                        Q14.Write a python program to take input from the user and then check whether it's a number or a character.
+                        If it is character, determine whether it is upper or lowercase.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+val = input("Enter your character: ")
+
+if 'A' &lt;= val &lt;= 'Z':
+    print("Upper_case_character: ", val)
+elif 'a' &lt;= val &lt;='z':
+    print("Lower_case_character: ", val)
+else:
+    print("It's_a_number.")                    
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                      <p class="questions">
+                        Q15.Write a python program to count total number of notes in given amount.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+amount = int(input("Enter your amount: "))
+
+no_of_2000 = amount // 2000
+amount %= 2000
+no_of_500 = amount // 500
+amount %= 500
+no_of_200 = amount // 200
+amount %= 200
+no_of_100 = amount // 100
+amount %= 100
+no_of_50 = amount // 50
+amount %= 50
+no_of_20 = amount // 20
+amount %= 20
+no_of_10 = amount // 10
+amount %= 10
+no_of_5 = amount // 5
+amount %= 5
+
+print("Number of 2000 notes:", no_of_2000)
+print("Number of 500 notes:", no_of_500)
+print("Number of 200 notes:", no_of_200)
+print("Number of 100 notes:", no_of_100)
+print("Number of 50 notes:", no_of_50)
+print("Number of 20 notes:", no_of_20)
+print("Number of 10 notes:", no_of_10)
+print("Number of 5 notes:", no_of_5)
+print("Remaining amount:", amount)                    
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                      <p class="questions">
+                        Q16.Write a python program to input electricity unit charges and calculate total electricity bill according to given conditions.
+                        For first 50 units R 0.5/unit.
+                        For next 100 units Rs 0.75/unit.
+                        For next 100 units Rs 1.20/unit.
+                        For unit above 250 Rs.150/unit.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+units = int(input("Enter the number of electricity units consumed: "))
+
+if units &lt;= 50:
+    bill = units * 0.5
+elif units &lt;= 150:
+    bill = (50 * 0.5) + (units - 50) * 0.75
+elif units &lt;= 250:
+    bill = (50 * 0.5) + (100 * 0.75) + (units - 150) * 1.20
+else:
+    bill = (50 * 0.5) + (100 * 0.75) + (100 * 1.20) + (units - 250) * 1.50
+
+surcharge = 0.2 * bill
+
+total_bill = bill + surcharge
+
+print("Total electricity bill (including 20% surcharge): Rs.", total_bill)
+                </pre>
+            </div>
+        </div>
+        <hr size="1px" width="100%">
+        <div class="practice-questions">
+            <h3 class="tasks">Extra Tasks</h3>
+        </div>
+        <div class="details">
+            <div class="tier">
+                <div class="question-container">
+                    <p class="questions">Q1.Write a program that takes an integer as input and prints "Even" if the number is even and "Odd" if the number is odd.</p>
+                    <p class="questions">Q2. Write a program that takes the age of a person as input and prints the age group they belong to using the following categories:
+                        0-12 : "Child"
+                        13-19 : "Teenager"
+                        20-64 : "Adult"
+                        65 and above : "Senior"
+                    </p>
+                    <p class="questions">Q3.Write a program that calculates the discount based on the total amount of a purchase. Use the following rules:
+                        If the amount is >= 100, apply a 20% discount.
+                        If the amount is 50-99, apply a 10% discount.
+                        Otherwise, no discount.
+                    </p>
+                    <p class="questions">Q4.Write a program that determines the type of a triangle based on the lengths of its sides. Use the following criteria:
+                        If all three sides are equal, print "Equilateral".
+                        If exactly two sides are equal, print "Isosceles".
+                        If no sides are equal, print "Scalene".
+                     </p>
+                    <p class="questions">Q5.Write a program that asks the user to enter a number. Print "Positive" if the number is greater than 0, "Negative" if it's less than 0, and "Zero" if it's exactly 0.</p>
+                    <p class="questions">Q6.Write a program that asks for the user's age and prints "You are a minor" if the age is less than 18, or "You are an adult" if the age is 18 or older.</p>
+                    <p class="questions">
+                        Q7. Write a program that asks the user to input the current temperature in degrees Celsius. Print "It's freezing" if the temperature is below 0, "It's cold" 
+                        if the temperature is between 0 and 15, "It's warm" if the temperature is between 16 and 25, and "It's hot" if the temperature is above 25.
+                    </p>
+                    <p class="questions">Q7. Write a program that asks the user to input a day of the week (e.g., "Monday"). Print "It's a weekday" if the day is Monday through Friday, and "It's the weekend" if the day is Saturday or Sunday.</p>
+                    <p class="questions">Q8.Write a program that calculates the Body Mass Index (BMI) from the user's weight (in kg) and height (in meters). Print the BMI category based on the following ranges:
+                        Underweight: BMI &lt; 18.5
+                        Normal weight: 18.5 ≤ BMI &lt; 24.9
+                        Overweight: 25 ≤ BMI &lt; 29.9
+                        Obesity: BMI ≥ 30
+                        Example Input: 70 1.75
+                        Example Output: Normal weight</p>
+                </div>
+            </div>
+        </div>
+        <button class="scroll-up-button" onclick="topFunction()" id="myBtn" title="Go to top">
+            <div class="top-emoji">&#8682;</div>
+            Top<br>
+        </button>
+    </section>
+</html>

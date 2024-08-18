@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solution Page | RGUKT BASAR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="basar_logo_on_title.png" type="image/svg+xml">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="head-line">
+                <div class="logo">
+                    <a href="https://www.rgukt.ac.in/" target="_blank">
+                        <img src="basar.png" alt="RGUKT Logo"/>
+                    </a>
+                </div>
+                <div class="line">
+                    <p class="college">Rajiv Gandhi University of Knowledge Technologies</p>
+                    <p class="basarname">Basar</p>
+                </div>
+                <div class="python">
+                    <a href="https://www.python.org/" target="_blank">
+                        <img src="pythonlogo.png" alt="Python Logo"/>
+                    </a>
+                    <a class="psf" href="https://www.python.org/psf/trademarks/">
+                        <p class="python-attribution">Python logo is a trademark of the Python Software Foundation.</p>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <ul class="navigation-menu" role="menubar" aria-label="Main Navigation">
+                <li>
+                    <button>
+                        <a href="Solution_Page_Unit-1.html">Home</a>
+                    </button>
+                </li>
+                <li><button class="rows">
+                    <a href="https://www.rgukt.ac.in/about-introduction.html">About RGUKT</a></button>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Popular IDE's</button>
+                        <div class="dropdown-content">
+                            <a href="https://www.jetbrains.com/pycharm/download/?section=windows" target="_blank">
+                                PyCharm
+                            </a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a  href="https://www.spyder-ide.org/" target="_blank">Spyder</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://code.visualstudio.com/download" target="_blank">VS Code</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://www.pydev.org/download.html" target="_blank">PyDev</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://atom-editor.cc/" target="_blank">Atom</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://jupyter.org/install" target="_blank">Jupyter Notebook</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Mobile Apps</button>
+                        <div class="dropdown-content">
+                            <a href="https://play.google.com/store/search?q=pydroid&c=apps" target="_blank">Pydroid3</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/search?q=coding%20python&c=apps" target="_blank">Coding Python</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/search?q=mimo&c=apps" target="_blank">Mimo</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/apps/details?id=org.qpython.qpy3" target="_blank">Qpython</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Buy Book</button>
+                        <div class="dropdown-content">
+                            <a href="https://www.amazon.in/PYTHON-PROGRAMMING-PROBLEM-SOLVING-APPROACH/dp/0199480176" target="_blank">Python-Reema Thareja</a>
+                        </div>
+                    </div>
+                </li>
+                <li><button class="rows"><a href="https://hub.rgukt.ac.in/hub/default/user/login" target="_blank">Go To Hub</a></button></li>
+                <li><button class="rows">
+                    <a href="Solution_Page_About-Creator.html">About the Creator</a>
+                </button></li>
+                <li>
+                    <input class="theme" type="checkbox" id="darkmode-toggle"/>
+                    <label for="darkmode-toggle"></label>
+                </li>
+            </ul>
+        </nav>
+        <script src="script.js"></script>
+        <section class="content">
+            <h3 class="content-p2">Content</h3>
+            <hr width="100%" size="1px" color="grey">
+            <h3 class="p2-units">Unit-V</h3>
+            <h3 class="function-headline">Functions in python</h3>
+            <div class= "function-content-container">
+                <div class="function-container">
+                    <h3 class="function-concepts">Function</h3>
+                    <p>
+                        Function is a group of related statements that perform a specific task. Functions help
+                        break our program into smaller and modular chunks. As our program grows larger and larger,
+                        functions make it more organized and manageable. It avoids repetition and makes code reusable.
+                    </p>
+                    <div class="function-img-container">
+                        <div class="function-syntax-image">
+                            <img src="function_syntax.png">
+                        </div>
+                    </div>
+                    <h3 class="function-concepts">Function components</h3>
+                    <p>
+                        <ol>
+                            <li>
+                                <strong>Keyword def: </strong>The keyword 'def' is used to define a function. It ia the beginning of the function.
+                            </li>
+                            <li>
+                                <strong>Name of function: </strong>The function name is given after the 'def' keyword. 
+                                the function is anything but it's not be a pre defined keywords of python.
+                            </li>
+                            <li>
+                                <strong>Parameters: </strong>These are the values passed to the Function by user or programmer. 0 or more Parameters
+                                can be included in parenthesis.
+                            </li>
+                            <li>
+                                <strong>Colon: </strong>The colon represent's start of the indent function block.
+                            </li>
+                            <li>
+                                <strong>DocString: </strong>The string after the function header is called docstring and is the short documentation string.
+                                It briefly used to explain what function does.
+                            </li>
+                            <li>
+                                <strong>Statements: </strong>The statements are used to perform specific task in of the function. 
+                                Inside the function there can be any number of statements, these statements have same indentation.
+                            </li>
+                            <li>
+                                <strong>Return statement: </strong>A return statements is used to end the execution of the function call and returns the result to the caller.
+                                the statements after the return statement not executed. If the return statement is without any expression, then the special
+                                value None is returned.
+                            </li>
+                            <li>
+                                <strong>Function call: </strong>Once we have defined a function, we can call it from another function, program or even the Python
+                                prompt. To call a function we simply type the function name with appropriate parameters.
+                            </li>
+                        </ol>
+                    </p>
+                    <div class="function-img-container">
+                        <div class="function-syntax-image">
+                            <img src="function-example.png">
+                        </div>
+                    </div>
+                    <h3 class="function-concepts">Advantages of Functions</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                <strong>Helps in increasing modularity of code: </strong>
+                                Python functions help divide the code into smaller
+                                problems and solve them individually, thus making it easier to code.
+                            </li>
+                            <li>
+                                <strong>Minimizes Redundancy: </strong>
+                                Python functions help you save the effort of rewriting the whole
+                                code. All you got to do is call the Function once it is defined.
+                            </li>
+                            <li>
+                                <strong>Maximize Code Reusability: </strong>
+                                Once defined, the python Function can be called as many times
+                                as needed, thus enhancing code reusability.
+                            </li>
+                            <li>
+                                <strong>Improves Clarity of Code: </strong>
+                                As the large program is divided into sections with the help of
+                                functions, it helps in increasing the readability of code, at the same time ensuring easy
+                                debugging.
+                            </li>
+                        </ul>
+                    </p>
+                    <h3 class="function-concepts">Scope of variables</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                <strong>Global Variables: </strong> Any variables declared outside the function is called a global variable. 
+                                This global variable can used any where, whether inside or outside of the Function.
+                            </li>
+                            <div class="scope-var-container">
+                                <div class="global-var">
+                                    <img src="global-var-example.png">
+                                </div>
+                            </div>
+                            <li>
+                                <strong>Local Variables: </strong> A variable which is defined inside the Function's body is called a local variable.
+                                Such a variable can be accessed only within the Function.
+                            </li>
+                            <div class="scope-var-container">
+                                <div class="local-var">
+                                    <img src="local-var-example.png">
+                                </div>
+                            </div>
+                        </ul>
+                    </p>
+                    <h3 class="function-concepts">Parameters</h3>
+                    <p>
+                        Parameters are the variables in the function definition that receive values.
+                        They act as placeholders or variables for the data that will be provided to the function.
+                        this placeholders holds the data provided by arguments.
+                    </p>
+                    <h3 class="function-concepts">Arguments</h3>
+                    <p>
+                        The second type of data is the data passed in the function call. This data is called arguments.
+                        Arguments can be variables and expressions. Argument is the actual value of this variable that gets
+                        passed to function.<br>
+                        <br>
+                        There are four types of arguments:<br>
+                        <ul>
+                            <li>Required arguments</li>
+                            <li>Keyword arguments</li>
+                            <li>Default arguments</li>
+                            <li>Variable-length arguments</li>
+                        </ul>
+                    </p>
+                    <h3 class="function-concepts">Required Arguments</h3>
+                    <p>
+                        In the required arguments, the arguments are passed to a function in correct positional order. The
+                        number of arguments in the function call should exactly match with the number of parameters
+                        specified in the function definition.
+                    </p>
+                    <div class="arguments_container">
+                        <div class="argument">
+                            <img src="required_argument_image.png">
+                        </div>
+                    </div>
+                    <p>
+                        <strong>Output: </strong><br>
+                        Enter your first number: 5 <br>
+                        Enter your second number: 2 <br>
+                        Product:  10
+                    </p>
+                    <h3 class="function-concepts">Keyword Arguments</h3>
+                    <p>
+                        In Python, a keyword argument is a way to pass values to a function by explicitly specifying which parameter each value should be assigned to. 
+                        This is done by using the parameter names as keywords in the function call.
+                        Keyword arguments allow you to specify which parameter you are assigning a value to in a function call. This makes it clear which value goes to which parameter.
+                    </p>
+                    <div class="arguments_container">
+                        <div class="argument">
+                            <img src="keyword_argument_image.png">
+                        </div>
+                    </div>
+                    <p>
+                        <strong>Output: </strong><br>
+                        Hello: Alan, Alex.<br>
+                    </p>
+                    <h3 class="function-concepts">Default Arguments</h3>
+                    <p>
+                        A default argument is an argument that assumes a default value which defined in the called function if 
+                        a value is not provided in the function call for that argument.<br>
+                        Or<br>
+                        Default arguments in Python are values that are used if no argument is provided for a parameter when calling a function. 
+                        They allow you to define a function where some parameters have default values, 
+                        which can simplify function calls and make your code more flexible.                    
+                    </p>
+                    <div class="arguments_container">
+                        <div class="argument">
+                            <img src="default_argument_image.png">
+                        </div>
+                    </div>
+                    <p>
+                        <strong>Output: </strong><br>
+                        Hello: User<br>
+                        Enter your name: Alex<br>
+                        Hello: Alex
+                    </p>
+                    <h3 class="function-concepts">Variable-length Arguments</h3>
+                    <p>
+                        Not always will you know the number of arguments that can be passed to the Function. If the number 
+                        of arguments passed is unknown, you can add an asterisk (*) before the parameter in the function 
+                        definition.<br>
+                        Or <br>       
+                        In Python, you can handle variable-length arguments using '*args' and '**kwargs' in function definitions. 
+                        These allow you to pass a varying number of positional and keyword arguments to a function.       
+                    </p>
+                    <div class="arguments_container">
+                        <div class="argument">
+                            <img src="variable-length_argument_image.png">
+                        </div>
+                    </div>
+                    <p>
+                        <strong>Output: </strong><br>
+                        Hello: <br>
+                        Alex, Alan, Rosse. <br>
+                    </p>
+                    <h3 class="function-concepts">Recursive Functions </h3>
+                    <p>
+                        Recursion is the process in which a function calls itself. Recursive functions are used mostly for 
+                        sequence generation and are used to make the code look clean and elegant.                        
+                    </p>
+                    <p>
+                        <strong>Advantages of recursion</strong><br>
+                        <ul>
+                            <li>
+                                Recursive functions make the code look clean and elegant. 
+                            </li>
+                            <li>
+                                A complex task can be broken down into simpler sub-problems using recursion.
+                            </li>
+                            <li>
+                                Sequence generation is easier with recursion than using some nested iteration.
+                            </li>
+                        </ul><br>
+                        <strong>Disadvantages of recursion</strong><br>
+                        <ul>
+                            <li>
+                                Sometimes the logic behind recursion is hard to follow through.
+                            </li>
+                            <li>
+                                Recursive calls are expensive (inefficient) as they take up a lot of memory and time.
+                            </li>
+                            <li>
+                                Recursive functions are hard to debug.
+                            </li>
+                        </ul>
+                    </p>
+                    <h3 class="function-concepts">Lambda or Anonymous Function</h3>
+                    <p>
+                        In Python, anonymous function is a function that is defined without a name. While normal functions 
+                        are defined using the def keyword, in Python anonymous functions are defined using the lambda 
+                        keyword.Hence, anonymous functions are also called lambda functions.<br>
+                        <br>
+                        Lambda functions can have any number of arguments but only one expression. The expression is 
+                        evaluated and returned.<br>                        
+                    </p>
+                    <p>
+                        <strong>Syntax:</strong> lambda arguments: expression <br>
+                    </p>
+                    <div class="function-img-container">
+                        <div class="function-syntax-image">
+                            <img src="lambda_function.png">
+                        </div>
+                    </div>
+                    <h3 class="function-concepts">map( ) Function</h3>
+                    <p>
+                        The map( ) function takes two arguments a function and a list, functions like lambda, the new list is returned by applying
+                        the function to all the items in the list.
+                    </p>
+                    <p>
+                        <strong>Syntax: </strong> map(function, sequence)
+                    </p>
+                    <div class="function-img-container">
+                        <div class="function-syntax-image">
+                            <img src="map_function_eample.png">
+                        </div>
+                    </div>
+                    <h3 class="function-concepts">filter( ) Function</h3>
+                    <p>
+                        The function filter(function, list) offers an elegant way to filter out all the elements of 
+                        a list, for which the function's function returns True.
+                        The filter function, needs a function as its first argument. The function return a boolean value, i.e. either True or False.
+                        This function will be applied to all the elements in the list.  Only if f returns True will the element of the list be included in the result 
+                        list.                        
+                    </p>
+                    <p>
+                        <strong>Syntax: </strong> filter(function, sequence)
+                    </p>
+                    <div class="function-img-container">
+                        <div class="function-syntax-image">
+                            <img src="filter-funtion-example.png">
+                        </div>
+                    </div>
+                    <h3 class="function-concepts">reduce( ) Function</h3>
+                    <p>
+                        reduce in Python is a part of the functools module ,that allows you to reduce a list in a more concise 
+                        way, it doesn't return multiple values; it just returns a single value. The reduce() function computation 
+                        is similar to a for-loop in Python, but being an in-built function, it's much better and faster.                        
+                    </p>
+                    <p>
+                        <strong>Syntax: </strong> reduce(function, iterable)<br>
+                    </p>
+                    <div class="function-img-container">
+                        <div class="function-syntax-image">
+                            <img src="reduce_function_example.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="horizontal-line">
+                <hr width="100%" size="1px" color="grey">
+            </div>
+            <h3 class="function-concepts-problems">Problems on 'Functions'</h3>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q1.Write a Python function to find the Min of three numbers.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+num1 = int(input("Enter your number: "))
+num2 = int(input("Enter your number: "))
+num3 = int(input("Enter your number: "))
+
+my_tuple = num1, num2, num3
+
+def min_num(min_tuple):
+    return min(min_tuple)
+result = min_num(my_tuple)
+print("Minimum number among entered '{}', '{}', '{}' numbers: ".format(num1, num2, num3), result)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q2.Write a Python function that accepts a string and calculate the number of upper case letters 
+                        and lower case letters.                         
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+def my_func(input_str):
+    upper_count = 0
+    lower_count = 0
+
+    for i in input_str:
+        if "A"&lt; i &lt;"Z":
+            upper_count += 1
+        else:
+            lower_count += 1
+    return upper_count, lower_count
+user_str = input("Enter your string: ")
+result = my_func(user_str)
+print("Number of uppercase letters, number of lowercase letters: ", result)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q3.Write a Python function that takes a number as a parameter and check the number is prime or 
+                        not.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+def prime(input_num):
+    factors_count = 0
+
+    for i in range(1, input_num + 1):
+        if input_num % i == 0:
+            factors_count += 1
+        else:
+            pass
+    if factors_count == 2:
+        return "Entered number '{}' is prime.".format(input_num)
+    else:
+        return "Entered number '{}' is not prime.".format(input_num)
+
+result = prime(int(input("Enter your number to check prime or not: ")))
+print(result)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q4.Write a Python function to check whether a number is perfect or not
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+def perfect(num):
+
+    factors_count = 0
+
+    if num &lt;= 0:
+        return False
+
+    else:
+        for i in range(1, num):
+            if num % i == 0:
+                factors_count += i
+        return factors_count == num
+
+result = perfect(int(input("Enter your number to check it is perfect or not: ")))
+
+print("Perfect: ",result)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q5.Write a Python program to calculate the sum of natural numbers using recursion.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+def natural_sum (num):
+    if num == 0:
+        return 0
+    return num + natural_sum(num - 1)
+
+input_num = int(input("Enter your number: "))
+
+result = natural_sum(input_num)
+print("Sum of '{}' natural numbers: ".format(input_num), result)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q6.Write a Python program to get the factorial of a non-negative integer using recursion.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+def fact(num):
+    if num > 0:
+        if num == 0 or num == 1:
+            return 1
+        else:
+            return num * fact(num - 1)
+    else:
+        return "Not possible, provide positive number."
+
+input_num = int(input("Enter your number: "))
+result = fact(input_num)
+print("Factorial of '{}': ".format(input_num), result)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q7.Write a Python program to solve the Fibonacci sequence using recursion.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+def fib(num):
+
+    if num &lt;= 0:
+        return 0
+    elif num == 1:
+        return 1
+    else:
+        return fib(num - 1) + fib(num - 2)
+
+result = fib(int(input("Enter your number: ")))
+print(result)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q8.Write a Python program to calculate the sum of a list of numbers using recursion?
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+list_length = int(input("Enter how many elements you want in list: "))
+input_list = [ ]
+
+for i in range(list_length):
+    input_list.append(int(input("Enter your element: ")))
+
+def list_sum(num_list):
+
+    if len(num_list) == 0:
+        return 0
+    else:
+        return num_list[0] + list_sum(num_list[1:])
+
+result = list_sum(input_list)
+print("Sum of elements in the provided list '{}': ".format(input_list), result)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q9.Write a Python program to get the sum of a non-negative integer?
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+def sum_of_integers(n):
+    if n == 0:
+        return 0
+    else:
+        return n + sum_of_integers(n - 1)
+
+result = sum_of_integers(int(input("Enter your number: ")))
+print("Sum: ", result)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q10.Write a program to print length of each word of the given string by using lambda and map 
+                        functions.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+string = input("Enter your string: ")
+
+word_lengths = list(map(lambda x : len(x), string.split()))
+
+print("length of words in the '{}' string: ".format(string), word_lengths)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q11.Write a program to find common elements of two lists by using lambda and filter functions.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+list1 = [2, 4, 6, 8, 10, 12, 14, 16]
+list2 = [3, 6, 9, 12, 15, 18, 21, 24]
+
+common_elements = list(filter(lambda x : x in list1, list2))
+
+print("Common elements in list1: '{}'and list2: '{}' : ".format(list1, list2), common_elements)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q12.Write a program to append the same string to a list of strings in Python using lambda and 
+                        map?                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+list_of_strings = ["Porsche", "Aston martin", "Maserati", "Pagani", "Ferrari"]
+
+append_string = "_car"
+
+new_list = list(map(lambda x: x + append_string, list_of_strings))
+
+print(new_list)
+                </pre>
+            </div>
+            <hr size="1px" width="100%">
+            <div class="practice-questions">
+                <h3 class="tasks">Extra Tasks</h3>
+            </div>            
+            <div class="details">
+                <div class="tier">
+                    <div class="question-container">
+                        <h3 class="function-concepts-problems">Functions</h3>
+                        <p class="questions">
+                            Try to solve all questions in data types by creating a own function.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <button class="scroll-up-button" onclick="topFunction()" id="myBtn" title="Go to top">
+            <div class="top-emoji">&#8682;</div>
+            Top<br>
+        </button>
+    </body>
+</html>

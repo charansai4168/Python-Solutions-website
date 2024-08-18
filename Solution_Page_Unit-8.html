@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solution Page | RGUKT BASAR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="basar_logo_on_title.png" type="image/svg+xml">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="head-line">
+                <div class="logo">
+                    <a href="https://www.rgukt.ac.in/" target="_blank">
+                        <img src="basar.png" alt="RGUKT Logo"/>
+                    </a>
+                </div>
+                <div class="line">
+                    <p class="college">Rajiv Gandhi University of Knowledge Technologies</p>
+                    <p class="basarname">Basar</p>
+                </div>
+                <div class="python">
+                    <a href="https://www.python.org/" target="_blank">
+                        <img src="pythonlogo.png" alt="Python Logo"/>
+                    </a>
+                    <a class="psf" href="https://www.python.org/psf/trademarks/">
+                        <p class="python-attribution">Python logo is a trademark of the Python Software Foundation.</p>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <ul class="navigation-menu" role="menubar" aria-label="Main Navigation">
+                <li>
+                    <button>
+                        <a href="Solution_Page_Unit-1.html">Home</a>
+                    </button>
+                </li>
+                <li><button class="rows">
+                    <a href="https://www.rgukt.ac.in/about-introduction.html">About RGUKT</a></button>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Popular IDE's</button>
+                        <div class="dropdown-content">
+                            <a href="https://www.jetbrains.com/pycharm/download/?section=windows" target="_blank">
+                                PyCharm
+                            </a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a  href="https://www.spyder-ide.org/" target="_blank">Spyder</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://code.visualstudio.com/download" target="_blank">VS Code</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://www.pydev.org/download.html" target="_blank">PyDev</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://atom-editor.cc/" target="_blank">Atom</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://jupyter.org/install" target="_blank">Jupyter Notebook</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Mobile Apps</button>
+                        <div class="dropdown-content">
+                            <a href="https://play.google.com/store/search?q=pydroid&c=apps" target="_blank">Pydroid3</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/search?q=coding%20python&c=apps" target="_blank">Coding Python</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/search?q=mimo&c=apps" target="_blank">Mimo</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/apps/details?id=org.qpython.qpy3" target="_blank">Qpython</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Buy Book</button>
+                        <div class="dropdown-content">
+                            <a href="https://www.amazon.in/PYTHON-PROGRAMMING-PROBLEM-SOLVING-APPROACH/dp/0199480176" target="_blank">Python-Reema Thareja</a>
+                        </div>
+                    </div>
+                </li>
+                <li><button class="rows"><a href="https://hub.rgukt.ac.in/hub/default/user/login" target="_blank">Go To Hub</a></button></li>
+                <li><button class="rows">
+                    <a href="Solution_Page_About-Creator.html">About the Creator</a>
+                </button></li>
+                <li>
+                    <input class="theme" type="checkbox" id="darkmode-toggle"/>
+                    <label for="darkmode-toggle"></label>
+                </li>
+            </ul>
+        </nav>
+        <script src="script.js"></script>
+        <section class="content">
+            <h3 class="content-p2">Content</h3>
+            <hr width="100%" size="1px" color="grey">
+            <h3 class="p2-units">Unit-VIII</h3>
+            <h3 class="exception">Exception Handling</h3>
+            <div class= "exception-content-container">
+                <div class="exception-container">
+                    <p>
+                        An error in Python refers to a problem that occurs while the program is running 
+                        and prevents it from continuing.<br>
+                        <strong>Example: </strong><br>
+                        print 9<br>
+                        <strong>Output: </strong>SyntaxError: Missing parentheses in call to 'print'. Did you mean print(9)?                        
+                    </p>
+                    <h3 class="exception_content">Exception</h3>
+                    <p>
+                        
+                        Even if a statement is syntactically correct, it may still cause an error when 
+                        executed and disrupts the normal flow of program's instructions. Such errors that 
+                        occur at run-time are known as exceptions. An exception is a python object that 
+                        represents an error.<br> 
+                        <br>
+                        <strong>Use of Exception</strong><br>
+                        <br>
+                        Exceptions are convenient in many ways for handling errors and special 
+                        conditions in a program. When you think that you have a code which can produce 
+                        an error then you can use exception handling, which avoids your program to 
+                        crash.<br>
+                        <br>
+                        <strong>Handling Exceptions in Python</strong><br>
+                        <br>
+                        Since raising an exception results in an interruption of the program execution, we 
+                        have to handle this exception in advance to avoid such undesirable cases.                        
+                    </p>
+                    <h3 class="exception_content">Try...except clause</h3>
+                    <p>
+                        The try statement is used to run an error-prone piece of program and must always followed by an exception block.
+                        If no exception occurs within try block python gives result, if any exceptions occurs within try block interpreter jumps to exception block.                     
+                    </p>
+                    <div class="exception_image_container">
+                        <div class="exception_image">
+                            <img src="try_except_example.png">
+                        </div>
+                    </div>
+                    <h3 class="exception_content">Try...except...else clause</h3>
+                    <p>
+                        In addition to the try and except clauses, we can use an optional else command. If 
+                        present, the else command must be placed after all the except clauses and 
+                        executed only if no exceptions occurred in the try clause.                        
+                    </p>
+                    <div class="exception_image_container">
+                        <div class="exception_image">
+                            <img src="try_except_else_example.png">
+                        </div>
+                    </div>
+                    <h3 class="exception_content">Try...except...else...finally clause</h3>
+                    <p>
+                        Another optional statement is finally, if provided, it must be placed after all the 
+                        clauses including else (if present) and executed in any case, whether or not an 
+                        exception was raised in the try clause. The finally clause is optional only                        
+                    </p>
+                    <div class="exception_image_container">
+                        <div class="exception_image">
+                            <img src="try_except_else_finally.png">
+                        </div>
+                    </div>
+                    <h3 class="exception_content">Common errors and Built-in exception</h3>
+                    <p>
+                        <ol>
+                            <li>
+                                <strong>Syntax error</strong><br>
+                                <p>
+                                    Occurs when interpreter encounter an error in syntax of python.<br>
+                                    <strong>Example: </strong><br>
+                                    <pre>
+    print 3
+    #output : Missing parentheses in call to 'print'. Did you mean print(3)?
+                                    </pre>
+                                </p>
+                            </li>
+                            <li>
+                                <strong>Indentation error</strong><br>
+                                <p>
+                                    Occurs where there is incorrect indentation in code.<br>
+                                    <strong>Example: </strong><br>
+                                    <pre>
+    print(3)
+        print("number")
+    #output : IndentationError: unexpected indent
+                                    </pre>
+                                </p>
+                            </li>
+                            <li>
+                                <strong>ImportError</strong><br>
+                                <p>
+                                    Occurs when python cannot find the module.<br>
+                                    <strong>Example: </strong><br>
+                                    <pre>
+    try:
+        import mth
+    except ImportError:
+        print("Module not exist.")
+    #output: Module not exist.
+                                    </pre>
+                                </p>
+                            </li>
+                            <li>
+                                <strong>ValueError</strong><br>
+                                <p>
+                                    Raised when a built-in operation or function receives an argument that has the 
+                                    right type but an inappropriate value.<br>
+                                    <strong>Example: </strong><br>
+                                    <pre>
+    try:
+        num = int(input("Enter any number: "))
+    except ValueError:
+        print("Invalid input enter, a number.")
+                                    </pre>                                    
+                                </p>
+                            </li>
+                            <li>
+                                <strong>ZeroDivisionError</strong><br>
+                                <p>
+                                    Occurs when  the second argument of a division or modulo operation is zero.<br>
+                                    <strong>Example: </strong><br>
+                                    <pre>
+    try:
+        result = 1%0
+    except ZeroDivisionError:
+        print("Can't divide with zero.")
+                                    </pre>
+                                </p>
+                            </li>
+                            <li>
+                                <strong>TypeError</strong><br>
+                                <p>
+                                    Raised when an operation or function is applied to an object of inappropriate 
+                                    type.<br>
+                                    <strong>Example: </strong><br>
+                                    <pre>
+    try:
+        print("5" + 5)
+    except TypeError:
+        print("Cannot concatenate str and int objects.")
+                                    </pre>                              
+                                </p>
+                            </li>
+                            <li>
+                                <strong>KeyError</strong><br>
+                                <p>
+                                    Occurs when accessing a key which doesn't exist.<br>
+                                    <strong>Example: </strong><br>
+                                    <pre>
+    try:
+        sample_dict = {1:2, 3:4, 5:6}
+        print(sample_dict[6])
+    except KeyError:
+        print("Key not found.")
+                                    </pre>
+                                </p>
+                            </li>
+                            <li>
+                                <strong>IndexError</strong><br>
+                                <p>
+                                    Occurs when trying to access an index that is out of range for a sequence.<br>
+                                    <strong>Example: </strong><br>
+                                    <pre>
+    try:
+        sample_list = [1, 3, 4, 6]
+        print(sample_list[6])
+    except IndexError:
+        print("Index out of range.")
+                                    </pre>
+                                </p>
+                            </li>
+                            <li>
+                                <strong>NameError</strong><br>
+                                <p>
+                                    Raised when a name doesn't exist among either local or global variables.<br>
+                                    <strong>Example: </strong><br>
+                                    <pre>
+    try:
+        print(val)
+    except NameError:
+        print("Variable not found.")
+                                    </pre>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <h3 class="exception_content">Raising an Exception</h3>
+                    <p>
+                        Sometimes, we may need to deliberately raise an exception and stop the program 
+                        if a certain condition occurs. For this purpose, we need the raise keyword.<br>
+                        
+                        <strong>Example: </strong><br>
+                        <pre>
+    try:
+        num = 4
+        num_list = [1, 2, 6, 8]
+        if num not in num_list:
+            raise ValueError("not in num_list.")
+    except ValueError as ve:
+        print(ve)
+    #output: not in num_list.
+                        </pre>
+                    </p>
+                </div>
+            </div>
+            <div class="horizontal-line">
+                <hr width="100%" size="1px" color="grey">
+            </div>
+            <h3 class="exception_content_problems">Problems on 'Exception Handling'</h3>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q1. Write a program to print factorial values of each element in the list? Use
+                        multiple exceptions if the list contains other than integer values and also 
+                        write this code using try…finally clause?<br>
+                        <br>
+                        Example: number_list = [5,-2,'python',3.4,4]<br>
+                        Expected Output: The factorial of 5 is 120<br>
+                        Factorial only accepts positive integer values.<br>
+                        Factorial is not supported for given input type.<br>
+                        Factorial only accepts positive integer values.<br>
+                        The factorial of 4 is 24<br>
+                        Release any resources in use.<br>   
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+items_list = [5, -2, "python", 3.4, 4]
+
+for i in items_list:
+    try:
+        if i >= 0:
+            result = 1
+            for j in range(1, i+1):
+                result = result * j
+            print("The factorial of {} is {}.".format(i, result))
+        else:
+            raise Exception("Factorial only accepts positive integer values.")
+    except TypeError:
+        print("Factorial is not supported for given input type.")
+    except ValueError as ve:
+        print(ve)
+    except Exception as ex:
+        print(ex)
+print("Releases any resources in use.")
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q2. Write a program that prompts the user to enter a number. If the number is 
+                        positive or zero print it, otherwise raise an exception.(raising exception)                          
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+try:
+    num = int(input("Enter your number: "))
+    if num > 0 or num == 0:
+        print(num)
+    else:
+        raise Exception("Invalid number, try positive number.")
+except Exception as ex:
+    print(ex)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q3. Write a program that prompts the user to enter his name. The program 
+                        then greets the person with his name. But if the person's name is 'Kiwi' an 
+                        exception is thrown and he is asked to quit the program.(raising exception)                                                  
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+try:
+    person_name = input("Enter your name: ").lower()
+    if person_name == "kiwi":
+        raise Exception("You have to quit the program.")
+    else:
+        print("Hello {}.".format(person_name))
+except Exception as ex:
+    print(ex)
+            </div>
+            <hr size="1px" width="100%">
+            <div class="practice-questions">
+                <h3 class="tasks">Extra Tasks</h3>
+            </div>            
+            <div class="details">
+                <div class="tier">
+                    <div class="question-container">
+                        <h3 class="exception_content_problems">Exception</h3>
+                        <p class="questions">
+                            Q1. Write a program that asks the user for an integer input, and if the user enters a non-integer, catch the exception and prompt the user again until a valid integer is entered.
+                        </p>
+                        <p class="questions">
+                            Q2. Create a program that prompts the user to enter a positive integer and raises a ValueError if the user enters a negative number or zero.
+                        </p>
+                        <p class="questions">
+                            Q3. Write a program that attempts to use a variable that hasn't been defined. Catch the NameError and print a custom message explaining that the variable is not defined.
+                        </p>
+                        <p class="questions">
+                            Q4. Write a program that asks the user for their age and raises a ValueError if the age entered is not a positive number. Catch the exception and prompt the user again.
+                        </p>
+                        <p class="questions">
+                            Q5. Write a program that checks if an input is a string. If it’s not, raise a TypeError with a custom message and handle the exception.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <button class="scroll-up-button" onclick="topFunction()" id="myBtn" title="Go to top">
+            <div class="top-emoji">&#8682;</div>
+            Top<br>
+        </button>
+    </body>
+</html>

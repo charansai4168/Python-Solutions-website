@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solution Page | RGUKT BASAR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="basar_logo_on_title.png" type="image/svg+xml">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="head-line">
+                <div class="logo">
+                    <a href="https://www.rgukt.ac.in/" target="_blank">
+                        <img src="basar.png" alt="RGUKT Logo"/>
+                    </a>
+                </div>
+                <div class="line">
+                    <p class="college">Rajiv Gandhi University of Knowledge Technologies</p>
+                    <p class="basarname">Basar</p>
+                </div>
+                <div class="python">
+                    <a href="https://www.python.org/" target="_blank">
+                        <img src="pythonlogo.png" alt="Python Logo"/>
+                    </a>
+                    <a class="psf" href="https://www.python.org/psf/trademarks/">
+                        <p class="python-attribution">Python logo is a trademark of the Python Software Foundation.</p>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <ul class="navigation-menu" role="menubar" aria-label="Main Navigation">
+                <li>
+                    <button>
+                        <a href="Solution_Page_Unit-1.html">Home</a>
+                    </button>
+                </li>
+                <li><button class="rows">
+                    <a href="https://www.rgukt.ac.in/about-introduction.html">About RGUKT</a></button>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Popular IDE's</button>
+                        <div class="dropdown-content">
+                            <a href="https://www.jetbrains.com/pycharm/download/?section=windows" target="_blank">
+                                PyCharm
+                            </a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a  href="https://www.spyder-ide.org/" target="_blank">Spyder</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://code.visualstudio.com/download" target="_blank">VS Code</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://www.pydev.org/download.html" target="_blank">PyDev</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://atom-editor.cc/" target="_blank">Atom</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://jupyter.org/install" target="_blank">Jupyter Notebook</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Mobile Apps</button>
+                        <div class="dropdown-content">
+                            <a href="https://play.google.com/store/search?q=pydroid&c=apps" target="_blank">Pydroid3</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/search?q=coding%20python&c=apps" target="_blank">Coding Python</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/search?q=mimo&c=apps" target="_blank">Mimo</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/apps/details?id=org.qpython.qpy3" target="_blank">Qpython</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Buy Book</button>
+                        <div class="dropdown-content">
+                            <a href="https://www.amazon.in/PYTHON-PROGRAMMING-PROBLEM-SOLVING-APPROACH/dp/0199480176" target="_blank">Python-Reema Thareja</a>
+                        </div>
+                    </div>
+                </li>
+                <li><button class="rows"><a href="https://hub.rgukt.ac.in/hub/default/user/login" target="_blank">Go To Hub</a></button></li>
+                <li><button class="rows">
+                    <a href="Solution_Page_About-Creator.html">About the Creator</a>
+                </button></li>
+                <li>
+                    <input class="theme" type="checkbox" id="darkmode-toggle"/>
+                    <label for="darkmode-toggle"></label>
+                </li>
+            </ul>
+        </nav>
+        <script src="script.js"></script>
+        <section class="content">
+            <h3 class="content-p2">Content</h3>
+            <hr width="100%" size="1px" color="grey">
+            <h3 class="p2-units">Unit-VII</h3>
+            <h3 class="searching_and_sorting">Searching</h3>
+            <div class= "searching_and_sorting-content-container">
+                <div class="searching_and_sorting-container">
+                    <p>
+                        Searching is a process of finding an object among a group of objects. Here the element is 
+                        also referred to as 'Key'. Searching is one of the important application of list i.e., we can 
+                        search a particular element present in a list or in a record.                        
+                    </p><br>
+                    <P>
+                        There are 2 important Searching Techniques.
+                    </P>
+                    <ol>
+                        <li>
+                            Linear Search [ Sequential Search]
+                        </li>
+                        <li>
+                            Binary Search [ Logarithmic Search]
+                        </li>
+                    </ol><br>
+                    <p>
+                        Linear Search is applied on the unsorted or unordered list when there are fewer elements
+                        in a list. Binary search can only be used for sorted list, but it's fast as compared to linear 
+                        search. Use of binary search on a list which is not sorted, then must sort it using some 
+                        sorting technique.                        
+                    </p><br>
+                    <h3 class="searching_sorting-heading">1.Linear Search</h3>
+                    <p>
+                        Linear search is a very simple search algorithm. In this type of search, a sequential search 
+                        is made over all items one by one. Every item is checked and if a match is found then that 
+                        particular item is returned, otherwise the search continues till the end of the data 
+                        collection.<br>
+                        <strong>Example: </strong>Find a favorite CD in row of Bunch of CD's                      
+                    </p>
+                    <p>
+                        <strong>Performance: </strong><br>
+                        <ol>
+                            <li>
+                                Suppose that the first element in the list contains the variable key, then we have 
+                                performed one comparison to find the key.                                
+                            </li>
+                            <li>
+                                Suppose that the second element in the list contains the variable key, then we have 
+                                performed two comparisons to find the key.                                 
+                            </li>
+                            <li>
+                                Carry on the same analysis till the key is contained in the last element of the list. In this 
+                                case, we have performed N comparisons (where N is the size of the list) to find the key.                                
+                            </li>
+                            <li>
+                                Finally if the key is NOT in the list, then we would have performed N comparisons and 
+                                the key is NOT found and we would return-1.                                
+                            </li>
+                        </ol>
+                    </p>
+                    <p>
+                        <strong>Algorithm: </strong><br>
+                        <ul>
+                            <li>
+                                Start from the leftmost element of list and one by one compare x(key) with each 
+                                element of list.                                                               
+                            </li>
+                            <li>
+                                If x(key) matches with an element, return the index.
+                            </li>
+                            <li>
+                                If x doesn't match with any of elements, return -1.
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <strong>Advantages: </strong><br>
+                        <ul>
+                            <li>
+                                It is easy to understand. Easy to implement. Does not require the list to be in sorted order.
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <strong>Disadvantages: </strong><br>
+                        <ul>
+                            <li>
+                                If there are 20,000 items in the list and what you are looking for is in the 
+                                19,999th element, you need to search through the entire list.                                 
+                            </li>
+                            <li>
+                                Linear search is slower than other searching algorithms.
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <strong>Time complexity: </strong><br>
+                        Time complexity is the amount of time taken by an algorithm to run, as a function of the 
+                        length of the input There exist 3 time complexities, namely worst, best & average cases.                         
+                        <ol>
+                            <li>
+                                If there are N elements in the list, then it is obvious that in the worst case i.e., when 
+                                there is no target element in the list, N comparisons are required. 
+                                Hence worst time complexity = O(N).                                
+                            </li>
+                            <li>
+                                The best case, in which the 1st comparison returns a match, it requires a single 
+                                comparison. 
+                                Hence Best time complexity =O(1).                                
+                            </li>
+                            <li>
+                                The average time depends on the prob. that the key will be found in the list. Thus 
+                                the avg. case roughly requires N/2 comparison to search the element( i.e., depends 
+                                on N).
+                                Hence Average time complexity=O(N).                                
+                            </li>
+                        </ol>
+                    </p>
+                </div>
+                <h3 class="searching_sorting-heading">Working of Linear Search: </h3>
+                <div class="searching_and_sorting_image_container">
+                    <div class="searching_image">
+                        <img src="linear_search_working.png">
+                    </div>
+                </div>
+                <h3 class="searching_sorting-heading">Program:</h3>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+my_list = [ ]
+
+list_length = int(input("Enter how many elements you want: "))
+
+for i in range(list_length):
+    my_list.append(int(input("Enter your element: ")))
+
+search_element = int(input("Enter element which you want to search: "))
+
+if search_element in my_list:
+    for i in my_list :
+        if i == search_element :
+            print("Element '{}' found at index: ".format(search_element), my_list.index(i) )
+            break
+        else:
+            pass
+else:
+    print("Invalid element.")
+                </pre>
+            </div>
+            <div class= "searching_and_sorting-content-container">
+                <div class="searching_and_sorting-container">
+                    <h3 class="searching_sorting-heading">2. Binary Search</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                There are many searching algorithms but the binary search is most popular among 
+                                them. We can call this binary search as half interval searching.                                
+                            </li>
+                            <li>
+                                Binary Search works on a divide-and-conquer approach.
+                            </li>
+                            <li>
+                                The elements in the list must be sorted to apply the binary search algorithm.
+                            </li>
+                            <li>
+                                This concept is generally used by Electricians to locate a fused bulb in a serial set & 
+                                in searching a dictionary, phone_book.                                
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <strong>Performance: </strong><br>
+                        <ul>
+                            <li>
+                                In binary search, we first compare the value with the elements in the middle 
+                                position of the list. If the value is matched, then we return the mid value position.                                
+                            </li>
+                            <li>
+                                If the value is less than the middle element, then it must lie in the left sub list and if 
+                                it's greater than the mid element then it must lie in the right sub list.                                 
+                            </li>
+                            <li>
+                                We repeat this procedure on the left or right sub list.
+                            </li>
+                            <li>
+                                Binary Search is useful when there are large numbers of elements in an list. 
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <strong>Algorithm: </strong><br>
+                        <ul>
+                            <li>
+                                Step 1: Compare x(key) with the middle element.
+                            </li>
+                            <li>
+                                Step 2: If x matches with middle element, we return the mid index.
+                            </li>
+                            <li>
+                                Step 3: Else If x(key) is greater than the mid element, then x can only lie in right half 
+                                after the mid element. So we repeated for right half.                                
+                            </li>
+                            <li>
+                                Step 4: Else (x is smaller) repeated for the left half. 
+                            </li>
+                            <li>
+                                Step 5: Failure if element not found or empty.
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <strong>Advantages: </strong><br>
+                        <ul>
+                            <li>
+                                Compared to linear search binary search is much faster. 
+                            </li>
+                            <li>
+                                It's a fairly simple algorithm, though people get it wrong all the time.It‟s well known 
+                                and often implemented for you as a library routine.                                 
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <strong>Disadvantages: </strong><br>
+                        <ul>
+                            <li>
+                                It's more complicated than linear search, and is overkill for very small numbers of 
+                                elements.                                 
+                            </li>
+                            <li>
+                                It works only on lists that are sorted and kept sorted. That is not always feasible, 
+                                especially if elements are constantly being added to the list.                                 
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <strong>Time complexity: </strong><br>
+                        Best Case performance - The middle element is equal to the “input key” O(1). 
+                        Worst Case performance -The “input key” is not present in the list O(log n). 
+                        Average Case performance - The “input key” is present, but it's not the middle element 
+                        O(log n).                         
+                    </p>
+                </div>
+                <h3 class="searching_sorting-heading">Working of Binary Search: </h3>
+                <div class="searching_and_sorting_image_container">
+                    <div class="searching_image">
+                        <img src="binary_search_eaxmple.png">
+                    </div>
+                </div>
+                <h3 class="searching_sorting-heading">Program:</h3>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+list_length = int(input("Enter how many elements you want: "))
+my_list = [ ]
+
+for i in range(list_length):
+    my_list.append(int(input("Enter your element: ")))
+
+my_list = sorted(my_list)
+print("Sorted: ", my_list)
+
+search_element = int(input("Enter element which you want to search: "))
+low = 0
+high = len(my_list) - 1
+
+for i in range(len(my_list)):
+    mid = (low + high) // 2
+
+    if my_list[mid] == search_element:
+        print("Searching key is found at index: ", mid)
+        break
+    elif my_list[mid] &lt; search_element:
+        low = mid + 1
+    else:
+        high = mid -1
+    if low > high:
+        print("Element not found.")
+        break
+else:
+    print("Invalid not found.")
+                </pre>
+            </div>
+            <br>
+            <hr width="100%" color="grey" size="1px">
+            <h3 class="searching_and_sorting">Sorting</h3>
+            <div class= "searching_and_sorting-content-container">
+                <div class="searching_and_sorting-container">
+                    <p>
+                        Sorting is a process that organizes a collection of data into either ascending or descending 
+                        order. They are many sorting algorithms such as 
+                        <ol>
+                            <li>
+                                Selection Sort 
+                            </li>
+                            <li>
+                                Bubble Sort
+                            </li>
+                            <li>
+                                insertion sort
+                            </li>
+                            <li>
+                                Merge Sort
+                            </li>
+                            <li>
+                                Heap Sort 
+                            </li>
+                            <li>
+                                Quick sort
+                            </li>
+                            <li>
+                                Tree Sort
+                            </li>
+                            <li>
+                                Tim Sort
+                            </li>
+                            <li>
+                                Shell Sort
+                            </li>
+                            <li>
+                                Bucket Sort
+                            </li>
+                            <li>
+                                Radix Sort
+                            </li>
+                            <li>
+                                Counting Sort
+                            </li>
+                            <li>
+                                Cube Sort
+                            </li>
+                        </ol>                        
+                    </p>
+                    <h3 class="searching_sorting-heading">1.Selection Sort</h3>
+                    <p>
+                        Selection sort is conceptually the most simplest sorting algorithm. This algorithm will first 
+                        find the smallest element in the list and swap it with the element in the first position, then 
+                        it will find the second smallest element and swap it with the element in the second position, 
+                        and it will keep on doing this until the entire list is sorted.
+                        It is called selection sort because it repeatedly selects the next-smallest element and 
+                        swaps it into the right place.<br>
+                        <br>
+                        <strong>Algorithm: </strong><br>
+                        Step 1 - Set min to the first location<br>
+                        Step 2 - Search the minimum element in the list<br>
+                        Step 3 - swap the first location with the minimum value in the list<br>
+                        Step 4 - assign the second element as min.<br>
+                        Step 5 - Repeat the process until we get a sorted list.<br>   
+                        <br>
+                        <strong>Time complexity: </strong><br>
+                        Worst Case Complexity: O(n^2 ) <br>
+                        Best Case Complexity: O(n^2 ) <br>
+                        Average Case Complexity: O(n^2 ) <br>                        
+                    </p>
+                </div>
+                <h3 class="searching_sorting-heading">Working of Selection Sort: </h3>
+                <div class="searching_and_sorting_image_container">
+                    <div class="searching_image">
+                        <img src="selection_sort_example.png">
+                    </div>
+                </div>
+                <h3 class="searching_sorting-heading">Program:</h3>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+list_length = int(input("Enter how many elements you want: "))
+my_list = []
+
+for i in range(list_length):
+    my_list.append(int(input("Enter your element: ")))
+
+for i in range(len(my_list)):
+    key = i
+    for j in range(i + 1, len(my_list)):
+        if my_list[j] &lt; my_list[key]:
+            key = j
+    my_list[i], my_list[key] = my_list[key], my_list[i]
+
+print("Sorted list:", my_list)
+
+                </pre>
+            </div>
+            <div class= "searching_and_sorting-content-container">
+                <div class="searching_and_sorting-container">
+                    <h3 class="searching_sorting-heading">2. Bubble Sort</h3>
+                    <p>
+                        Bubble sort is one of the simplest sorting algorithms. The two adjacent elements of a list 
+                        are checked and swapped if they are in wrong order and this process is repeated until we 
+                        get a sorted list. 
+                        It is known as bubble sort, because with every complete iteration the largest 
+                        element in the given list, bubbles up towards the last place or the highest index.  
+                        <br>
+                        <strong>Algorithm: </strong>
+                        <ul>
+                            <li>
+                                Step 1: Compare the first and the second element of the list and swap them if they 
+                                are in wrong order.                                 
+                            </li>
+                            <li>
+                                Step 2:Compare the second and the third element of the list and swap them if they 
+                                are in wrong order.                                 
+                            </li>
+                            <li>
+                                Step 3:Proceed till the last element of the list in a similar fashion. 
+                            </li>
+                            <li>
+                                Step 4:Repeat all of the above steps until the list is sorted. (In every complete 
+                                iteration, first largest element will placed to last index(n-1th index), second largest 
+                                element placed at n-2th index and so on. )                                
+                            </li>
+                        </ul>                    
+                    </p>
+                    <p>
+                        <strong>Time complexity: </strong><br>
+
+                        Best Case Complexity: O(n) <br>
+                        Worst Case Complexity: O(n 2 ) <br>
+                        Average Case Complexity: O(n 2 )<br>       
+                    </p>
+                </div>
+                <h3 class="searching_sorting-heading">Working of Bubble Sort: </h3>
+                <div class="searching_and_sorting_image_container">
+                    <div class="searching_image">
+                        <img src="bubble_sort_example.png">
+                    </div>
+                </div>
+                <h3 class="searching_sorting-heading">Program:</h3>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+list_length = int(input("Enter how many elements you want: "))
+my_list = []
+
+for i in range(list_length):
+    my_list.append(int(input("Enter your element: ")))
+
+for i in range(len(my_list) - 1):
+    for j in range(0, len(my_list) - i - 1):
+        if my_list[j] > my_list[j + 1]:
+            my_list[j], my_list[j + 1] = my_list[j + 1], my_list[j]
+
+print("Sorted list:", my_list)
+                </pre>
+            </div>
+            <div class= "searching_and_sorting-content-container">
+                <div class="searching_and_sorting-container">
+                    <h3 class="searching_sorting-heading">3. Insertion Sort</h3>
+                    <p>
+                        Insertion sort is a simple sorting algorithm that works the way we sort playing cards in our 
+                        hands. Insertion Sort is a sorting algorithm where the list is sorted by taking one element at 
+                        a time. The principle behind insertion sort is to take one element, from unsorted list and 
+                        iterate through the sorted list & find its correct position in the sorted list.
+                        <br>
+                        <strong>Algorithm: </strong><br>
+                        <br>
+                        Step 1 - If the element is the first one, it is already sorted.<br>
+                        Step 2 - Move to next element<br>
+                        Step 3 - Compare the current element with all elements in the sorted list<br>
+                        Step 4 - If the element in the sorted list is smaller than the current element, iterate to the 
+                        next element. Otherwise, shift all the greater element in the list by one position towards 
+                        right.<br>
+                        Step 5 - Insert the value at the correct position.<br>
+                        Step 6 - Repeat until the complete list is sorted.<br>
+                        <br>
+                        <strong>Time complexity: </strong><br>
+                        Best-case:O( n) <br>
+                        Worst-case:O( n^2 ) <br>
+                        Average-case:O( n^2 ) <br>                        
+                    </p>
+                </div>
+                <h3 class="searching_sorting-heading">Working of Insertion Sort: </h3>
+                <div class="searching_and_sorting_image_container">
+                    <div class="searching_image">
+                        <img src="insertion_sort_example.png">
+                    </div>
+                </div>
+                <h3 class="searching_sorting-heading">Program:</h3>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+list_length = int(input("Enter how many elements you want: "))
+my_list = []
+
+for i in range(list_length):
+    my_list.append(int(input("Enter your element: ")))
+
+for i in range(1, len(my_list)):
+    key = my_list[i]
+    j = i - 1
+    # Use a for loop instead of a while loop
+    for j in range(i - 1, -2, -1):
+        if my_list[j] > key:
+            my_list[j + 1] = my_list[j]
+        else:
+            break
+    my_list[j + 1] = key
+
+print("Sorted list:", my_list)
+                </pre>
+            </div>
+        </section>
+        <button class="scroll-up-button" onclick="topFunction()" id="myBtn" title="Go to top">
+            <div class="top-emoji">&#8682;</div>
+            Top<br>
+        </button>
+    </body>
+</html>

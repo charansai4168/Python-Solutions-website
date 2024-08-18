@@ -1,0 +1,2210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solution Page | RGUKT BASAR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="basar_logo_on_title.png" type="image/svg+xml">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="head-line">
+                <div class="logo">
+                    <a href="https://www.rgukt.ac.in/" target="_blank">
+                        <img src="basar.png" alt="RGUKT Logo"/>
+                    </a>
+                </div>
+                <div class="line">
+                    <p class="college">Rajiv Gandhi University of Knowledge Technologies</p>
+                    <p class="basarname">Basar</p>
+                </div>
+                <div class="python">
+                    <a href="https://www.python.org/" target="_blank">
+                        <img src="pythonlogo.png" alt="Python Logo"/>
+                    </a>
+                    <a class="psf" href="https://www.python.org/psf/trademarks/">
+                        <p class="python-attribution">Python logo is a trademark of the Python Software Foundation.</p>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <ul class="navigation-menu" role="menubar" aria-label="Main Navigation">
+                <li>
+                    <button>
+                        <a href="Solution_Page_Unit-1.html">Home</a>
+                    </button>
+                </li>
+                <li><button class="rows">
+                    <a href="https://www.rgukt.ac.in/about-introduction.html">About RGUKT</a></button>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Popular IDE's</button>
+                        <div class="dropdown-content">
+                            <a href="https://www.jetbrains.com/pycharm/download/?section=windows" target="_blank">
+                                PyCharm
+                            </a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a  href="https://www.spyder-ide.org/" target="_blank">Spyder</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://code.visualstudio.com/download" target="_blank">VS Code</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://www.pydev.org/download.html" target="_blank">PyDev</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://atom-editor.cc/" target="_blank">Atom</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://jupyter.org/install" target="_blank">Jupyter Notebook</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Mobile Apps</button>
+                        <div class="dropdown-content">
+                            <a href="https://play.google.com/store/search?q=pydroid&c=apps" target="_blank">Pydroid3</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/search?q=coding%20python&c=apps" target="_blank">Coding Python</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/search?q=mimo&c=apps" target="_blank">Mimo</a>
+                            <hr class="underline" size="0.5px" color="#bf80bf" >
+                            <a href="https://play.google.com/store/apps/details?id=org.qpython.qpy3" target="_blank">Qpython</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="rows">Buy Book</button>
+                        <div class="dropdown-content">
+                            <a href="https://www.amazon.in/PYTHON-PROGRAMMING-PROBLEM-SOLVING-APPROACH/dp/0199480176" target="_blank">Python-Reema Thareja</a>
+                        </div>
+                    </div>
+                </li>
+                <li><button class="rows"><a href="https://hub.rgukt.ac.in/hub/default/user/login" target="_blank">Go To Hub</a></button></li>
+                <li><button class="rows">
+                    <a href="Solution_Page_About-Creator.html">About the Creator</a>
+                </button></li>
+                <li>
+                    <input class="theme" type="checkbox" id="darkmode-toggle"/>
+                    <label for="darkmode-toggle"></label>
+                </li>
+            </ul>
+        </nav>
+        <script src="script.js"></script>
+        <section class="content">
+            <h3 class="content-p2">Content</h3>
+            <hr width="100%" size="1px" color="grey">
+            <h3 class="p2-units">Unit-IV</h3>
+            <h3 class="data-types">Data Types</h3>
+            <div class="condition-statement-container">
+                <div class="statement-container">
+                    <h3 class="list">List</h3>
+                    <p>
+                        List is a mutable data type available in Python. It is a sequence in which elements are 
+                        written as a list of comma-separated values (items) between square brackets [ ].
+                    </p>
+                    <h3 class="list">List Operations</h3>
+                    <p>
+                        <ol>
+                            <li><strong>+ (Concatenation):</strong> Joins two lists.</li>
+                            <li><strong>* (Repetition):</strong> Repeats elements in lists.</li>
+                            <li><strong>in (Membership):</strong> Checks is the value is present in list.</li>
+                            <li><strong>not in:</strong> Checks is the value is not present in the list.</li>
+                        </ol>
+                    </p>
+                    <h3 class="list">List functions</h3>
+                    <p>
+                        <ol>
+                            <li><strong>len:</strong> Gives length (number of elements) of the list.</li>
+                            <li><strong>max:</strong> Gives the biggest value in the list.But all elements should be same data type.</li>
+                            <li><strong>min:</strong> Gives the smallest value in the list.</li>
+                            <li><strong>sum:</strong> Adds all values in the list that contains only numbers.</li>
+                            <li><strong>all:</strong> Gives True if all elements in the list are positive or negative except zero.</li>
+                            <li><strong>any:</strong> Gives True if any single element in the list is either positive or negative.</li>
+                            <li><strong>sorted:</strong> Gives a new sorted list.</li>
+                            <li><strong>list:</strong> Converts other data types into list.</li>
+                        </ol>
+                    </p>
+                    <h3 class="list">List methods</h3>
+                    <p>
+                        <ol>
+                            <li><strong>.append( ):</strong> Add an element at the end of the list.</li>
+                            <li><strong>.extend( ):</strong> Add the element from another list to existing list.</li>
+                            <li><strong>.insert( ):</strong> This places an element at the specific index of the list.</li>
+                            <li><strong>.pop( ):</strong> Removes the last element of the list.And also removes the element at specific index.</li>
+                            <li><strong>.remove( ):</strong> Removes the provided element from the list, if multiple elements present it removes first element.</li>
+                            <li><strong>.count( ):</strong> Counts how many times the provided elements repeats in list.</li>
+                            <li><strong>.index( ):</strong> Gives the index value of the provided number if that is present in list.If the element presents more than once it gives the starting element index value.</li>
+                            <li><strong>.sort( ):</strong> It will arrange the elements to ascending order.</li>
+                        </ol>
+                    </p>
+                    <h3 class="list">Matrix Addition</h3>
+                    <div class="while-img-container">
+                        <div class="while-image-size-modifier">
+                            <img class="statement-image" src="adding_matries.png"/>
+                        </div>
+                    </div>
+                    <h3 class="list">Matrix Multiplication</h3>
+                    <div class="while-img-container">
+                        <div class="while-image-size-modifier">
+                            <img class="statement-image" src="matrix_multiplication.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="horizontal-line">
+                <hr width="100%" size="1px" color="grey">
+            </div>
+            <h3 class="list-problems">Problems on 'list'</h3>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q1.Write a program, that creates a list of numbers from 1-20 that are either divisible by 
+                        2 or 4.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+num = int(input("Enter your number: "))
+num_list = [ ]
+for i in range(1, num+1):
+    if i % 2 == 0 and i or 4 == 0:
+        num_list.append(i)
+    else:
+        continue
+print("Numbers divisible by 2 or 4: ", num_list)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q2.Write a program to generate a list of squares from 1-10.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+num = int(input("Enter your number: "))
+square_list = [ ]
+for i in range(1, num+1):
+    square_list.append(i*i)
+print("Squares from 1 to",num,": ", square_list)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q3.Write a python program the defines a list of countries that are a member of BRICS. 
+                        Check whether a country is a member of BRICS or not.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+brics_countries = ['BRAZIL', 'RUSSIA', 'INDIA', 'CHINA', 'SOUTH AFRICA']
+
+name = input("Enter country name: ").upper()
+
+if name in brics_countries:
+    print("It is a member of brics countries")
+else:
+    print("Not a member of brics countries")
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q4.Write a python program to create a list of numbers in the range 1 to 10. Then delete 
+                        all the even numbers from the list and print the final list.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+num = int(input("Enter your number: "))
+num_list = [ ]
+for i in range(1, num+1):
+    if i % 2 != 0:
+        num_list.append(i)
+    else: continue
+print("Final list: ", num_list)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q5.Write a program to print index at which a particular value exists. If the value exists 
+                        at multiple locations in the list, then print all the indices. Also, count the number of 
+                        times that the value is repeated in the list.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+num_list = [ ]
+num = int(input("Enter how many elements you want: "))
+for i in range(0, num):
+    num_list.append(int(input("Enter your element: ")))
+
+find = int(input("Enter your number: "))
+index_list = [ ]
+count = 0
+
+for i in range(len(num_list)):
+    if find == num_list[i]:
+        index_list.append(i)
+        count += 1
+    else: continue
+print("The number found at : ", index_list)
+print("The number",find,"repeats: ", count,"times.")
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q6.Write a program that creates a list of words by combining the words in two 
+                        individual lists.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+list1 = ["complete"]
+list2 = ["word."]
+
+combined_list = list1 + list2
+
+print("Combined list of words:", combined_list)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q7.Write a program that forms a list of first character of every word in the another list.                         
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+word_list = ["Have", "a", "good", "day."]
+new_list = [ ]
+
+for i in word_list:
+    new_list.append(i[0][0])
+print(new_list)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q8.Write a python program to remove all duplicates from the list.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+num_list = [ ]
+new_list = [ ]
+num = int(input("Enter your list length: "))
+for i in range(1, num+1):
+    num_list.append(int(input("Enter your element: ")))
+for i in num_list:
+    if i not in new_list:
+        new_list.append(i)
+print("New list: ", new_list)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q9.Write a program that creates a list of 10 random integers. Then create two lists-odd 
+                        list even list that has all odd and even values in the list.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+random_list = [ ]
+list_length = int(input("Enter your length list: "))
+even_list = [ ]
+odd_list = [ ]
+for i in range(list_length):
+    random_list.append(int(input("Enter your element: ")))
+for i in random_list:
+    if i % 2 == 0:
+        even_list.append(i)
+    else:
+        odd_list.append(i)
+print("Even list: ", even_list)
+print("Odd list: ", odd_list)
+                </pre>
+            </div>
+            <div class="horizontal-line">
+                <hr width="100%" size="1px" color="grey">
+            </div>
+            <div class="condition-statement-container">
+                <div class="statement-container">
+                    <h3 class="tuple">Tuple</h3>
+                    <p>
+                        Tuple is a immutable data type available in python, where we cannot change or update the values just like in list.
+                        The elements in 'Tuple' are separated by commas and enclosed between parenthesis "( )", we can also define the 'Tuple' without having parenthesis.
+                    </p>
+                    <h3 class="tuple">Tuple Operations</h3>
+                    <p>
+                        <ol>
+                            <li><strong>+ (Concatenation):</strong> Joins two tuple.</li>
+                            <li><strong>* (Repetition):</strong> Repeats elements in tuple.</li>
+                            <li><strong>in (Membership):</strong> Checks is the value is present in tuple.</li>
+                            <li><strong>not in:</strong> Checks is the value is not present in the tuple.</li>
+                        </ol>
+                    </p>
+                    <h3 class="tuple">Tuple functions</h3>
+                    <p>
+                        <ol>
+                            <li><strong>len:</strong> Gives length (number of elements) of the tuple.</li>
+                            <li><strong>max:</strong> Gives the biggest value in the tuple.But all elements must be fo the same data type.</li>
+                            <li><strong>min:</strong> Gives the smallest value in the tuple.</li>
+                            <li><strong>sum:</strong> Adds all values in the tuple that has only numbers.</li>
+                            <li><strong>all:</strong> Gives True if all elements in the tuple are positive or negative except zero. If tuple is empty "all" function gives 'True'.</li>
+                            <li><strong>any:</strong> Gives True if any single element in the tuple is either positive or negative.</li>
+                            <li><strong>sorted:</strong> Gives a new sorted list.</li>
+                            <li><strong>list:</strong> Converts other data types into tuple.</li>
+                            <li><strong>reversed:</strong> Gives the reversed tuple.</li>
+                        </ol>
+                    </p>
+                    <h3 class="tuple">Tuple methods</h3>
+                    <p>
+                        <ol>
+                            <li><strong>.count( ):</strong> Counts how many times the provided elements repeats in tuple.</li>
+                            <li><strong>.index( ):</strong>
+                                 Gives the index value of the provided number if that is present in tuple.
+                                 If the element presents more than once it gives the starting element index value. It gives a value error if the element is not present in tuple.
+                            </li>
+                        </ol>
+                    </p>
+                    <h3 class="difference">Difference b/w list and tuple</h3>
+                    <div class="table-container">
+                        <table class="difference-table">
+                            <tr class="difference-table-row">
+                                <th>List</th>
+                                <th>Tuple</th>
+                            </tr>
+                            <tr class="difference-table-row">
+                                <td>
+                                    List is a group of comma separated values 
+                                    within square brackets and square brackets 
+                                    are mandatory
+                                </td>
+                                <td>
+                                    Tuple is a group of comma separated values 
+                                    within parenthesis and parenthesis are 
+                                    optional.  
+                                </td>
+                            </tr>
+                            <tr class="difference-table-row">
+                                <td>
+                                    List is mutable data type. Once we creates 
+                                    list, we can perform any changes in that list.
+                                </td>
+                                <td>
+                                    Tuple is immutable. Once we create a tuple, 
+                                    we cannot change its content. If we try to do 
+                                    any changes then we get errors.                                    
+                                </td>
+                            </tr>
+                            <tr class="difference-table-row">
+                                <td>
+                                    If the content is not fixed and keeps on 
+                                    changing, then we should go for list data 
+                                    type.   
+                                </td>
+                                <td>
+                                    If the content is fixed and never changes 
+                                    then we should go for tuples.
+                                </td>
+                            </tr>
+                            <tr class="difference-table-row">
+                                <td>
+                                    List elements cannot be used as keys for 
+                                    dictionaries because keys should be 
+                                    immutable.        
+                                </td>
+                                <td>
+                                    Tuples elements can be uses as key for 
+                                    dictionaries because key should be 
+                                    immutable.
+                                </td>
+                            </tr>
+                            <tr class="difference-table-row">
+                                <td>
+                                    List consumes more memory.  
+                                </td>
+                                <td>
+                                    Tuple consumes less memory as compare to 
+                                    the list.
+                                </td>
+                            </tr>
+                            <tr class="difference-table-row">
+                                <td>
+                                    List have several built in methods.
+                                </td>
+                                <td>
+                                    Tuple does not have more built in methods 
+                                    as list.                                    
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <hr width="100%" size="1px" color="grey">
+            <h3 class="tuple-problems">Problems on 'tuple'</h3>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q1.Write a Python program to create a tuple with different data types and print tuple.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+tuple_x = (1, '2', {1:20}, [5,4], 3.14, True, False, None)
+
+print(tuple_x)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q2.Write a Python program to find the length of a tuple. 
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+my_tuple = (1,2,3,4,42,3,4,2,3,4,24,34)
+
+print(len(my_tuple))
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q3.Write a Python program to reverse a tuple.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+my_tuple = (1,2,3,4,5,6,77,8,9)
+
+print(tuple(reversed(my_tuple)))
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q4.Write a Python program to get the 4th element and 4th element from last of a tuple.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+my_tuple = (1,2,3,44,5,6,7,8,9)
+
+first_4th_element = my_tuple[3]
+last_4th_element = my_tuple[-4]
+
+print("First 4th element: ", first_4th_element)
+print("Second 4th element: ", last_4th_element)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q5.Write a Python program to check whether an element exists within a tuple. 
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+my_tuple = (1,2,3,4,5,6,7,8,9,10)
+num = int(input("Enter your number to find: "))
+
+if num in my_tuple:
+    print("Element exist.")
+else:
+    print("Element not exist.")
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q6.Write a Python program to add an item in a tuple.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+my_tuple = (1,2,3,4)
+print("Present tuple", my_tuple)
+modified_tuple = list(my_tuple)
+
+modified_tuple.append(int(input("Enter your element: ")))
+print("modified tuple: ",tuple(modified_tuple))
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q7.Write a Python program to convert a tuple to a string.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+my_tuple = (1,2,3,4,5,6)
+string = ""
+
+for i in my_tuple:
+    string += str(i)
+print(string)
+print(type(string))
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q8.Write a Python program to find the index of an item of a tuple.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+my_tuple = (1,2,3,4,5,6)
+item = int(input("Enter your element: "))
+
+print("Index of an item: ", my_tuple.index(item))
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q9.Write a program to swap two values using tuple assignment.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+(item1, item2) = (int(input("Enter your element: ")), int(input("Enter your element: ")))
+
+print("Item1, before: ", item1)
+print("Item2, before: ", item2)
+
+(item1, item2) = (item2, item1)
+
+print("Item1, after: ", item1)
+print("Item2, after: ", item2)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q10.Write a program that has a list of numbers(both positive as well as negative). Make 
+                        a new tuple that has only positive values from this list.                      
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+my_list = [1,2,3,4,5,0,-5,-4,-3,-2,-1]
+print(my_list)
+positive_list = [ ]
+
+for i in my_list:
+    if i > 0:
+        positive_list.append(i)
+print("Positive values: ", tuple(positive_list))
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q11.Write a Python program to remove an item from a tuple.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+my_tuple = (1,2,3,4,5,6,7,8,9)
+print("Original tuple: ", my_tuple)
+
+modified_list = list(my_tuple)
+modified_list.pop()
+modified_tuple = tuple(modified_list)
+
+print("Modified tuple: ",modified_tuple)
+print(type(modified_tuple))
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q12.Write a Python program to find the repeated items of a tuple. Example: tuple_x = 2, 4, 
+                        5, 6, 2, 3, 4, 4, 7 Output: 4 is 3 times.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+my_tuple = (1,2,3,4,5,6,5,6,42,2,41,4,2,1,2)
+item = int(input("Enter your item: "))
+repeated_items = [ ]
+count = 0
+
+for i in range(len(my_tuple)):
+    if my_tuple[i] == item:
+        repeated_items.append(i)
+        count += 1
+
+repeated_tuple = tuple(repeated_items)
+print("Item count: ", count)
+print("Item indices: ", repeated_tuple)
+print(type(repeated_tuple))
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q13.Write a program that has a nested tuple to store topper details.Edit the details and 
+                        print the details.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+initial_details = (("Name:", "Alex"), ("Course:", "PUC-2"), ("GPA:", "9.8"))
+print("Initial details: ")
+
+for i in initial_details:
+    print(i[0], i[1])
+edit = input("Enter yes to edit details: ").lower()
+
+if edit == "yes":
+    name = input("Enter your name: ")
+    course = input("Enter your course: ")
+    gpa = int(input("Enter your GPA: "))
+    modified_details = (("Name:", name), ("Course:", course), ("GPA:", gpa))
+    print("\nUpdated details: ")
+    for i in modified_details:
+        print(i[0], i[1])
+
+elif edit == "no":
+    print("\nUpdated details: ")
+    for i in initial_details:
+        print(i[0], i[1])
+                </pre>
+            </div>
+            <div class="horizontal-line">
+                <hr width="100%" size="1px" color="grey">
+            </div>
+            <div class="condition-statement-container">
+                <div class="statement-container">
+                    <h3 class="dictionary">Dictionaries</h3>
+                    <p>
+                        Dictionary is data type available in python. In which we store values as a pair of key and value. Each key separated from its value by a colon(:), and the pairs 
+                        or items in dictionary are separated by commas. The entire items in dictionary are enclosed in curly braces { }.
+                    </p>
+                    <h3 class="dictionary">Dictionary methods</h3>
+                    <p>
+                        <ol>
+                            <li><strong>.clear( ):</strong>
+                            Delete all items in the 'Dictionary'.
+                            </li>
+                            <li><strong>.items( ):</strong>
+                            Gives a list of 'tuple.
+                            </li>
+                            <li><strong>.keys( ):</strong>
+                            Gives a list of 'keys' in the dictionary.
+                            </li>
+                            <li><strong>.values( ):</strong>
+                            Gives a list of 'values' in the dictionary.
+                            </li>
+                            <li><strong>.get( ):</strong>
+                            The get( ) method gives the values for the specified key if the key is in dictionary. get() method takes maximum of two parameters.
+                                <p>
+                                    <strong>key-</strong> To search in dictionary.
+                                </p>
+                                <p>
+                                    <strong>value-</strong> To give the value if the key is not found. The default value is None.
+                                </p>
+                            </li>
+                            <li><strong>.pop( ):</strong>
+                            This method removes the specified item from the dictionary.
+                                <p>
+                                    <strong>syntax-</strong> dictionary.popitem(key name, default value). The default value is optional, this given value will be displayed if the key is not found in dictionary.
+                                    If there is no value, then we get a default value as value error.
+                                </p>
+                            </li>
+                            <li><strong>.update( ):</strong>
+                            This method is used to assign the items existed in another dictionary to already existed dictionary.
+                            </li>
+                            <li><strong>.popitem( ):</strong>
+                            This method will delete the last item in the dictionary.
+                            </li>
+                            <li><strong>.fromkeys( ):</strong>
+                            This method is used to create a new dictionary with keys from sequence an values set to val. IF no value is specified then, None is assigned as default value.
+                                <p>
+                                    <strong>syntax-</strong> dict.fromkeys(sequence, value).
+                                </p>
+                            </li>
+                            <li><strong>.zip( ):</strong>
+                            This method is used to combine two or more iterables (like lists or tuples) into a single iterable of tuples. We can change the data type into dictionary with the help of dict.
+                            </li>
+                        </ol>
+                    </p>
+                </div>
+            </div>
+            <hr width="100%" size="1px" color="grey">
+            <h3 class="dict-problems">Problems on 'dictionary'</h3>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q1.Write a Python script to add key value pair to a dictionary?<br>
+                        Sample Dictionary : {0: 10, 1: 20}<br>
+                        Expected Result : {0: 10, 1: 20, 2: 30}<br>
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+my_dict = {0:10, 1:20}
+dict_2 = {2:30}
+my_dict.update(dict_2)
+print(my_dict)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q2.Write a Python script to concatenate following dictionaries to create a new one?<br>
+                        Sample Dictionary : dic1={1:10, 2:20}<br>
+                        dic2={3:30, 4:40}<br>
+                        dic3={5:50,6:60}<br>
+                       Expected Result : {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}<br>
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+dic1 = {1:10, 2:20}
+dic2 = {3:30, 4:40}
+dic3 = {5:50, 6:60}
+
+dic2.update(dic3)
+dic1.update(dic2)
+print(dic1)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q3.Write a Python script to check if a given key already exists in a dictionary?
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+my_dict = {1:10, 2:20, 3:30, 4:40, 5:50}
+find_item = int(input("Enter your key: "))
+
+if find_item in my_dict:
+    print("Key is exist.")
+else:
+    print("Key doesn't exist.")
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q4.Write a Python script to print a dictionary where the keys are numbers between 1 and 15 (both
+                        included) and the values are square of keys?<br>
+                        Expected Result: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100, 11: 121, 12: 144,
+                        13: 169, 14: 196, 15: 225}<br>
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+keys_list = [ ]
+values_list = [ ]
+
+square_dict = { }
+
+for i in range(1, 16):
+    keys_list.append(i)
+    values_list.append(i * i)
+square_dict = dict(zip(keys_list, values_list))
+print(square_dict)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q5.Write a Python program to multiply all the values in a dictionary.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+sample_dict = {1:20, 2:30, 4:40, 5:50}
+print(sample_dict)
+values_product = 1
+
+for i in sample_dict.values():
+    values_product = values_product * i
+print("values product: ", values_product)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q6. Python Program to Create a Dictionary by taking any 5 strings as a user input and create key value
+                        pairs by taking first characters of a string as Key and string as a value?                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+dict_length = int(input("Enter how much length should be your dictionary: "))
+
+keys_list = [ ]
+values_list = [ ]
+
+required_dict = { }
+for i in range(1, dict_length + 1):
+    user_input = input("Enter your item: ")
+    values_list.append(user_input)
+for i in values_list:
+    keys_list.append(i[0])
+required_dict = dict(zip(keys_list, values_list))
+print("Result: ", required_dict)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q7. Write a Python program to remove duplicates (values) from Dictionary.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+sample_dict = {1:20, 2:20, 3:30, 4:40, 5:20}
+print("Original dictionary: ", sample_dict)
+keys_list = [ ]
+values_list = [ ]
+
+required_dict = { }
+
+for i in sample_dict:
+    keys_list.append(i)
+
+for i in sample_dict.values():
+    if i not in values_list:
+        values_list.append(i)
+required_dict = dict(zip(keys_list, values_list))
+print("Dictionary without duplicate values: ", required_dict)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q8. Write a Python program to sort a dictionary by key.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+unsorted_dict = {7:30, 5:50, 12:120, 1:10, 4:40}
+
+sorted_dict = dict(sorted(unsorted_dict.items()))
+
+print(sorted_dict)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q9.Write a Python program to create a dictionary by taking character as key and their count as value
+                        from the string<br>
+                        Expected Output:<br>
+                        str1='hello'<br>
+                        {'h': 1, 'e': 1, 'l': 2, 'o': 1}<br>
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+user_str = input("Enter your word: ")
+keys_list = [ ]
+values_list = [ ]
+
+result_dict = { }
+
+for i in user_str:
+    if i not in keys_list:
+        keys_list.append(i)
+        values_list.append(user_str.count(i))
+        
+result_dict = dict(zip(keys_list, values_list))
+print("Result: ", result_dict)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q10.Write a program that has dictionary of names of students and a list of their marks in 4 subjects.
+                        Create another dictionary from this dictionary that has name of the students and their total marks.
+                        Find out the topper and his/her score.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+student_dict = {"Alex" : (99, 98, 100, 99), "Norma" : (98, 100, 100, 99)}
+
+keys_list = [ ]
+values_list = [ ]
+
+total_marks_dict = { }
+
+for i in student_dict:
+    keys_list.append(i)
+for i in student_dict.values():
+    values_list.append(sum(i))
+
+total_marks_dict = dict(zip(keys_list, values_list))
+
+print("Topper: ", max(total_marks_dict), ",Marks secured: ", max(total_marks_dict.values()),"/ 400")
+                </pre>
+            </div>
+            <div class="horizontal-line">
+                <hr width="100%" size="1px" color="grey">
+            </div>
+            <div class="condition-statement-container">
+                <div class="statement-container">
+                    <h3 class="sets">Sets</h3>
+                    <p>
+                        Sets is a another data type in python. Sets and lists are same but where as lists allow duplicate values but sets don't allow duplicate values.
+                        It is immutable data type, the elements in list are unique and separated by commas and enclosed by curly braces { }.
+                    </p>
+                    <h3 class="sets">Sets methods</h3>
+                    <p>
+                        <ol>
+                            <li><strong>.pop( ):</strong> This method is used to delete the item form the set, which is in last place.We can't know what item it remove.</li>
+                            <li><strong>.clear( ):</strong> This method deletes the whole items in set and gives a null set when we print it.</li>
+                            <li><strong>.copy( ):</strong> It is used to copy the one set to another variable, and give the same set when we print it. Or gives the copy of set.</li>
+                            <li><strong>.issubset( ):  or &lt;=:</strong> 
+                                This method gives 'True' if all elements in the minor set is present in major set otherwise it gives 'False'.<br>
+                                <p>
+                                    <strong>syntax:</strong><br>
+                                    minor_set ={1,2,3,4,5} <br>
+                                    major_set ={1,2,3,4,5,6,7,8,9,10} <br>
+                                    print (minor_set.issubset(major_set))<br>
+                                    #Output:True                                    
+                                </p>
+                            </li>
+                            <li><strong>.issuperset( ): or >=:</strong>
+                                 This method gives 'True' if every element in major set is present in minor set.
+                                <p>
+                                    <strong>syntax:</strong><br>
+                                    minor_set ={1,2,3,4,5}<br>
+                                    major_set ={1,2,3,4,5,6,7,8,9,10}<br>
+                                    print (minor_set.issuperset(major_set))<br>
+                                    #Output:False                                    
+                                </p>
+                                </li>
+                            <li><strong>.intersection_update( ):</strong> Gives a new set that contains elements common in both major and minor set.</li>
+                            <li><strong>.difference_update( ):</strong> Gives a new set that contains elements element not common in major and minor set.</li>
+                        </ol>
+                    </p>
+                    <h3 class="sets">Sets functions</h3>
+                    <ol>
+                        <li><strong>len( ):</strong> Gives the length of the set.</li>
+                        <li><strong>max( ):</strong> Gives the largest number in the set.</li>
+                        <li><strong>min( ):</strong> Gives the smallest number in the set.</li>
+                        <li><strong>sum( ):</strong> Gives the sum of all elements in the set.</li>
+                        <li><strong>all( ):</strong> Gives 'True' if all elements in set are positive or negative except zero or if the set is empty it gives 'True'.</li>
+                        <li><strong>any( )</strong> Gives 'True' if any one of the element in the set is positive or negative.</li>
+                        <li><strong>sorted( ):</strong> Gives a new sorted list.</li>
+                    </ol>
+                    <h3 class="sets">Sets operations</h3>
+                    <ol>
+                        <li><strong>.union( ) or |:</strong> Gives a new set that has elements both in major and minor set.</li>
+                        <li><strong>.intersection( ) or &:</strong> Gives a new set that contains elements which are common in both major and minor set.</li>
+                        <li><strong>.difference( ) or -:</strong>
+                             if it is minor set - major set, then it gives a new set that has set of elements that are only in minor set but not in major set and also that element is not common.
+                            similarly for major set - minor set.
+                        </li>
+                        <li><strong>.symmetric_difference( ) or ^:</strong> Gives a new set that contains elements either in minor set or major set but not both.</li>
+                    </ol>
+                </div>
+            </div>
+            <hr width="100%" color="grey" size="1px">
+            <h3 class="set-problems">Problems on 'sets'</h3>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q1.Write a program that perform update(), pop(), remove(), add() and clear() 
+                        operations on two sets.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+#remove
+sample_set1.remove(2)
+print(sample_set1)
+
+#add
+sample_set1.add(99)
+print(sample_set1)
+
+#clear
+sample_set1.clear( )
+print(sample_set1)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q2.Write a program to perform union, intersection, difference and symmetric 
+                        difference operation on two sets. Take one set as prime numbers and second set as 
+                        odd numbers.                                                 
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+prime_set = {2, 3, 5, 7, 11, 13}
+odd_set = {3, 5, 7, 9, 11, 13, 15, 17, 29}
+print("Prime set :", prime_set)
+print("Odd set: ", odd_set)
+
+print("Union: ", prime_set | odd_set)
+print("Intersection: ", prime_set & odd_set)
+print("Difference: ", prime_set - odd_set)
+print("Symmetric difference: ", prime_set ^ odd_set+)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q3.Write a program that has a list of countries. Create a set of the countries and print 
+                        the names of the countries in sorted order.                                                
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+countries_list_length = int(input("Enter how many elements you want: "))
+
+countries_list = [ ]
+
+for i in range(countries_list_length):
+    countries_list.append(input("Enter your country name: "))
+
+print(set(sorted(countries_list)))
+                </pre>
+            </div>
+            <div class="horizontal-line">
+                <hr width="100%" size="1px" color="grey">
+            </div>
+            <div class="condition-statement-container">
+                <div class="statement-container">
+                    <h3 class="strings-content">Strings</h3>
+                    <p>
+                        Sets is a another data type in python. Sets and lists are same but where as lists allow duplicate values but sets don't allow duplicate values.
+                        It is immutable data type, the elements in list are unique and separated by commas and enclosed by curly braces { }.
+                    </p>
+                    <h3 class="strings-content">Strings Operations</h3>
+                    <p>
+                        <ol>
+                            <li><strong>Concatenation :</strong> Joining of two or more strings into a single one is called concatenation.The + operator does this 
+                                in Python.
+                            </li>
+                            <li><strong>Repetition :</strong>
+                                The * operator can be used to repeat the string for a given number of times.
+                            </li>
+                            <li><strong>in (membership) :</strong>
+                                The in operator returns True if the string contains the given character or the sequence of 
+                                characters.                                
+                            </li>
+                            <li><strong>not in :</strong>
+                                The not in operator returns True if the string does not contain the given character or the 
+                                sequence of characters.                                 
+                            </li>
+                            <li><strong>Slice :</strong>
+                                A substring of a string is called a slice. The slice operation is used to extract sub-parts of strings.
+                                <p>
+                                    <strong>syntax:</strong> string[start: stop: step]
+                                    <p>
+                                        <strong>Start:</strong> it specifies the beginning index of the substring. The default value of start is 
+                                        first character of the string.                                        
+                                    </p>
+                                    <p>
+                                        <strong>Stop:</strong>it specifies the index of the last character.The default value of end is last 
+                                        character of the string.                                        
+                                    </p>
+                                    <p>
+                                        <strong>Step:</strong>-it refers to the number of characters to move forward after the first 
+                                        character is retrieved from the string. The default value of stride is 1.                                        
+                                    </p>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <h3 class="strings-content">String Constants</h3>
+                    <ol>
+                        <li><strong>.string.ascii_letters :</strong>
+                            The command/function displays a string containing uppercase characters 
+                            and lowercase characters.                            
+                        </li>
+                        <li><strong>.string.ascii_uppercase :</strong>
+                            The command/function displays a string containing uppercase 
+                            characters.                            
+                        </li>
+                        <li><strong>.string.ascii_lowercase :</strong>
+                            The command displays a string containing all lowercase characters.
+                        </li>
+                        <li><strong>.string.digits :</strong>
+                            The command displays a string containing digits.
+                        </li>
+                        <li><strong>.string.hexdigits :</strong>
+                            The command displays a string containing hexadecimal characters.
+                        </li>
+                        <li><strong>.string.octdigits :</strong>
+                            The command displays a string containing octal characters.
+                        </li>
+                        <li><strong>.string.punctuation :</strong>
+                            The command displays a string containing all the punctuation characters.
+                        </li>
+                        <li><strong>.string.whitespace :</strong>
+                            The command displays a string containing all ASCII characters that are 
+                            considered whitespace. This includes the characters space, tab, linefeed, return, formfeed, and 
+                            vertical tab.                            
+                        </li>
+                        <li><strong>.string.printable :</strong>
+                            The command displays a string containing all characters which are 
+                            considered printable like letters, digits, punctuations and white spaces.                            
+                        </li>
+                    </ol>
+                    <h3 class="strings-content">String Methods</h3>
+                    <ol>
+                        <li><strong>.capitalize( ):</strong>
+                            The capitalize() method returns a string with first letter capitalized. It will modify 
+                            the remaining characters into lower case.                            
+                        </li>
+                        <li><strong>.lower( ):</strong>
+                            Converts all characters in the string into lowercase.
+                        </li>
+                        <li><strong>.islower( ):</strong>
+                            If every character in string is a lowers case character then it returns True otherwise 
+                            it returns False.                            
+                        </li>
+                        <li><strong>.upper( ):</strong>
+                            Converts all characters in the string into uppercase.
+                        </li>
+                        <li><strong>.isupper( ):</strong>
+                            If every character in string is an upper case character then it returns True otherwise 
+                            it returns False.                            
+                        </li>
+                        <li><strong>.isspace( ):</strong>
+                            Returns True if the string contains only white spaces and False even if it contains 
+                            one character.                            
+                        </li>
+                        <li><strong>.istitle( ):</strong>
+                            Returns True if the string is title cased(the first character of the each word is 
+                            capitalized ). Otherwise returns False.                            
+                        </li>
+                        <li><strong>.isalnum( ):</strong>
+                            Returns True if the string contains only letters and digit. It returns False ,If the string 
+                            contains any special character like _ , @,#,* etc.                            
+                        </li>
+                        <li><strong>.isalpha( ):</strong>
+                            The isalpha() returns True if all characters in the string are alphabets (can be both 
+                            lowercase and uppercase). It returns False if at least one character is not alphabet.                            
+                        </li>
+                        <li><strong>.isdigit( ):</strong>
+                            The isdigit() returns True if all characters in the string are digits. It returns False if 
+                            at least one character is not a digit.                            
+                        </li>
+                        <li><strong>.swapcase( ):</strong>
+                            The swapcase() method returns the string where all uppercase characters are 
+                            converted to lowercase, and lowercase characters are converted to uppercase.                            
+                        </li>
+                        <li><strong>.strip( ):</strong>
+                            Removes all leading and trailing whitespaces in a string.
+                        </li>
+                        <li><strong>.lstrip( ):</strong>
+                            :Returns the string after removing the space(s) on the left of the string.
+                        </li>
+                        <li><strong>.rstrip( ):</strong>
+                            Returns the string after removing the space(s) on the right of the string.
+                        </li>
+                        <li><strong>.Replace(old, new, max):</strong>
+                            Replace all or max (if given) occurrences of old string with new.
+                        </li>
+                        <li><strong>.join(list):</strong>
+                            The function joins a list of strings using the delimiter with which the function is 
+                            invoked.                            
+                        </li>
+                        <li><strong>.spilt(delimiter, maxsplit):</strong>
+                            Returns a list of substrings separated by the specified 
+                            delimiter. If no delimiter is specified then by default it split strings on all whitespace characters. 
+                            The second argument is optional and its default value is zero. If an integer value N is given for 
+                            the second argument, the string is split in N+1 strings.                            
+                        </li>
+                        <li><strong>.partition(sep):</strong>
+                            The function partitions the strings at the first occurrence of separator, and 
+                            returns the strings partition in three parts i.e. before the separator, the separator itself, and the 
+                            part after the separator. If the separator is not found, returns the string itself, followed by one 
+                            empty string.                            
+                        </li>
+                        <li><strong>.count(str, beg, end):</strong>
+                            Count number of times str occurs in a string. You can specify be as 0 
+                            and end as the length of the message to search the entire string or use any other value to just 
+                            search a part of the string.                            
+                        </li>
+                        <li><strong>.index(str, beg, end):</strong>
+                            This method return the position at the first occurrence of the specified 
+                            value and it raises an exception if str is not found.                            
+                        </li>
+                        <li><strong>.rindex(str, beg, end):</strong>
+                            Same as index but start searching from the end and raises an exception 
+                            if str is not found.                            
+                        </li>
+                        <li><strong>.find(str, beg, end):</strong>
+                            Checks if str is present in the string. If found it returns the position at 
+                            which str occurs in a string, otherwise returns -1. 
+                            You can either set beg=0 and end equal to the length of the message to search entire string or use 
+                            any other value to search a part of it.                            
+                        </li>
+                        <li><strong>.rfind(str, beg, end):</strong>
+                            Same as find but starts searching from the end.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <hr width="100%" color="grey" size="1px">
+            <h3 class="string-problems">Problems on 'sets'</h3>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q1.Write a Python program to copy the string using for loop.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+user_str = input("Enter your word to copy: ")
+copy_str = ""
+for i in user_str:
+    copy_str = copy_str + i
+print("Copy string: ", copy_str)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q2.Write a program to print the following pattern. 
+                        A<br>
+                        AB<br>
+                        ABC<br>
+                        ABCD   <br>                                           
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+for i in range(65, 70):
+    for j in range(65, i + 1):
+        print(chr(j), end="")
+    print( )
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q3.Write a program to that uses split() to split multiline string.                         
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+user_multi_line_str = input("Enter any multi line word: ")
+print("Before split method: ", user_multi_line_str)
+
+print("After split method: ",user_multi_line_str.split(" "))
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q4.Write a program that accepts a string from user and re-displays the same string after 
+                        removing vowels from it.                                                
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+user_str = input("Enter your word: ").lower( )
+print("Original string: ", user_str)
+str_without_vowels = ""
+
+vowels_list = ["a", "e", "i", "o", "u"]
+
+for i in user_str:
+    if( i not in vowels_list):
+        str_without_vowels += i
+print("String without vowels : ", str_without_vowels)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q5.Write a Python program to count and display the vowels of a given text.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+user_str = input("Enter any word: ").lower( )
+vowel_count = 0
+vowel_list = ["a", "e", "i", "o", "u"]
+vowels_in_str = [ ]
+
+for i in user_str:
+    if i in vowel_list:
+        vowel_count += 1
+        vowels_in_str.append(i)
+print("Vowels in entered word: ", tuple(set(vowels_in_str)))
+print("No. of vowels: ", vowel_count)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q6.Write a program that finds whether a given character is present in a string or not. In case 
+                        it is present it prints the index at which it is present. Do not use built-in find functions to 
+                        search the character.                                                
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+user_str = input("Enter your string: ")
+find_item = input("Enter your character to find: ")
+item_index_list = [ ]
+
+if find_item in user_str:
+    for i in range(len(user_str)):
+        if user_str[i] == find_item:
+            item_index_list.append(i)
+else:
+    print("Entered character is not found.")
+print("Index at which", find_item, "present: ", item_index_list)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q7.Write a program that finds a character in a string from ending of string to beginning that 
+                        like rfind function.                                                
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+user_str = input("Enter any string: ")
+find_item = input("Enter any character: ")
+
+index = -1
+
+for i in range(len(user_str)-1, -1, -1):
+    if user_str[i] == find_item:
+        index = i
+        break
+
+print("The character is '{}' found at index {} from the end.".format(find_item, index))
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q8.Write a python program that counts the occurrences of a character in a string and also 
+                        counting from the specified location. Do not use string count function.                                                
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+user_str = input("Enter your string: ")
+find_char = input("Enter your character to find: ")
+
+char_count = 0
+start_index = [ ]
+
+for i in range(len(user_str)):
+    if user_str[i] == find_char:
+        char_count += 1
+        start_index.append(i)
+
+if char_count > 0:
+    print("The character '{}' occurs {} times in the string starting from the index {}.".format(find_char, char_count, start_index[0]))
+else:
+    print("The character '{}' does not occur in the string.".format(find_char))
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q9.Write a program to reverse of string.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+user_str = input("Enter your word: ")
+reverse_str = ""
+
+for i in range(len(user_str)-1, -1, -1):
+    reverse_str = reverse_str + user_str[i]
+
+print("Reverse of the entered '{}' word: ".format(user_str), reverse_str)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q10.Write a program to find whether the given string is palindrome string or not.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+user_str = input("Enter your word: ")
+reverse_str = ""
+
+for i in range(len(user_str)-1, -1, -1):
+    reverse_str = reverse_str + user_str[i]
+
+if reverse_str == user_str:
+    print("The entered '{}' string is a palindrome.".format(reverse_str))
+else:
+    print("The entered '{}' string is not a palindrome.".format(user_str))
+    print("The reverse of the entered '{}' string:".format(user_str), reverse_str)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q11.Write a Python program to reverse words in a string.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+user_str = input("Enter your sentence: ")
+
+words = user_str.split()
+
+reversed_words = words[::-1]
+
+reversed_string = ' '.join(reversed_words)
+
+print(reversed_string)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q12.Write a Python program to get a string from a given string where all occurrences of its 
+                        first char have been changed to '$', except the first char itself.  
+                        Sample String : 'restart'<br>
+                        Expected Result : 'resta$t <br>
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+
+user_str = input("Enter your string: ")
+first_char = user_str[0]
+new_str = first_char
+
+for i in user_str[1:]:
+    if i != first_char:
+        new_str += i
+    else:
+        new_str += "$"
+print(new_str)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q13.Write a Python program to add 'ing' at the end of a given string (length should be at least 
+                        3). If the given string already ends with 'ing' then add 'ly' instead. If the string length of 
+                        the given string is less than 3, leave it unchanged.                 
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+user_str = input("enter your string: ")
+new_str = user_str
+
+if len(user_str) > 3:
+    if user_str.endswith("ing") == True:
+        new_str += "ly"
+        print("The modified string of entered '{}' ending with 'ing': ".format(user_str), new_str)
+    else:
+        new_str += "ing"
+        print("The modified string of entered '{}' not ending with 'ing': ".format(user_str), new_str)
+else:
+    print("Original string: ", user_str)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q14.Write a Python program to remove the characters which have odd index values of a given 
+                        string.                                                
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+user_str = input("Enter your string: ")
+new_str = " " #not having odd indices
+
+for i in range(len(user_str)):
+    if i % 2 == 0:
+        new_str += user_str[i]
+    else:
+        continue
+print("Result string without odd indices: ", new_str)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q15.Write a Python script that takes input from the user and displays that input back in upper 
+                        and lower cases.                                                 
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+user_str = input("Enter your string: ")
+
+print("Entered '{}' string in uppercase: ".format(user_str), user_str.upper( ))
+print("Entered '{}' string in lowercase: ".format(user_str), user_str.lower( ))
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q16.Write a Python program to lowercase first n characters in a string.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+user_str = input("Enter your string: ")
+terms_to_lowercase = int(input("Enter how many terms you want to change into lowercase: "))
+new_str = " "
+
+for i in range(0, terms_to_lowercase):
+    new_str += user_str[i].lower( )
+for i in range(terms_to_lowercase, len(user_str)):
+    new_str += user_str[i]
+print("Modified string with changing '{}' characters to lowercase: ".format(terms_to_lowercase), new_str)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q17.Write a Python program to count occurrences of a substring in a string.                         
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+user_str = input("Enter your string to find number od sub string: ")
+
+sub_str = (len(user_str) * (len(user_str)  + 1) ) / 2
+
+print("Number of sub strings for entered '{}' string: ".format(user_str),sub_str)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q18.Write a python that takes user‟s name and PAN card number as input. Validate the 
+                        information using is X function and print the details.                                                
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+pan_num = input("Enter your pan card number: ")
+
+if len(pan_num) == 10:
+    if pan_num[0: 5].isalpha( ) and pan_num[5: 9].isdigit( ) and pan_num[9].isalpha( ):
+        print("Your pan number: '{}' is valid".format(pan_num))
+    else:
+        print("Your pan number: '{}' is invalid, re-check ones.".format(pan_num))
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q19.Write a program that encrypts a message by adding a key value to every character. Hint: 
+                        say, if key=3, then add 3 to every character.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+message = input("Enter your message: ")
+key = 3
+encrypted_message = ""
+for char in message:
+    if char.isupper():
+        encrypted_char = chr((ord(char) + key - 65) % 26 + 65)
+    elif char.islower():
+        encrypted_char = chr((ord(char) + key - 97) % 26 + 97)
+    else:
+        encrypted_char = char
+    encrypted_message += encrypted_char
+
+print("Original Message:", message)
+print("Encrypted Message:", encrypted_message)
+                </pre>
+            </div>
+            <div class="details">
+                <div class="tier">
+                  <div class="question-container">
+                    <p class="questions">
+                        Q20.Write a Python function to reverse a string if it's length is a multiple of 4.                        
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <div class="copy-code-container">
+                    <div class="copy-button-python">
+                        <button class="copy-button" onclick="copyCode(this)">Copy code</button>
+                    </div>
+                </div>
+                <pre class="python-code" id="code-block">
+user_str = input("Enter your string: ")
+reverse_str = ""
+
+if len(user_str) % 4 == 0:
+    for i in user_str[::-1]:
+        reverse_str += i
+    print("Reverse of the string: ", reverse_str)
+else:
+    print("Ensure that your string '{}' length is multiple of four.".format(user_str))
+                </pre>
+            </div>
+            <hr size="1px" width="100%">
+            <div class="practice-questions">
+                <h3 class="tasks">Extra Tasks</h3>
+            </div>
+            <div class="details">
+                <div class="tier">
+                    <div class="question-container">
+                        <h3 class="list-problems">List</h3>
+                        <p class="questions">
+                            Q1. Write a program that takes a list of numbers and prints the sum, average, and maximum value.
+                        </p>
+                        <p class="questions">
+                            Q2. Write a program that takes a list of words and sorts them in alphabetical order.
+                        </p>
+                        <p class="questions">
+                            Q3. Create a program that multiplies all elements in a list by a user-provided value.
+                        </p>
+                        <p class="questions">
+                            Q4. Write a program that finds the second largest number in a list without using the max() function.
+                        </p>
+                        <p class="questions">
+                            Q5. Create a program that takes two lists and returns a new list containing elements that are common to both.
+                        </p>
+                    </div>
+                    <div class="question-container">
+                        <h3 class="tuple-problems">Tuple</h3>
+                        <p class="questions">
+                            Q1. Write a program that swaps the values of two tuples.
+                        </p>
+                        <p class="questions">
+                            Q2. Create a program that converts a tuple of numbers into a list and then sorts that list in descending order.
+                        </p>
+                        <p class="questions">
+                            Q3. Write a program that takes a tuple and prints the index of a specific element.
+                        </p>
+                        <p class="questions">
+                            Q4. Create a program that merges two tuples of integers and removes duplicates.
+                        </p>
+                        <p class="questions">
+                            Q5. Write a program that reverses a tuple without using any built-in functions.
+                        </p>
+                    </div>
+                    <div class="question-container">
+                        <h3 class="dict-problems">Dictionary</h3>
+                        <p class="questions">
+                            Q1. Write a program that counts the frequency of each character in a string using a dictionary.
+                        </p>
+                        <p class="questions">
+                            Q2. Write a program that merges two dictionaries into a single dictionary.
+                        </p>
+                        <p class="questions">
+                            Q3. Create a program that takes a dictionary of students and their scores and prints the name of the student with the highest score.
+                        </p>
+                        <p class="questions">
+                            Q4. Write a program that reverses the keys and values in a dictionary (i.e., the keys become values and vice versa).
+                        </p>
+                        <p class="questions">
+                            Q5. Write a program that removes all key-value pairs from a dictionary where the value is less than 10.
+                        </p>>
+                    </div>
+                    <div class="question-container">
+                        <h3 class="set-problems">Sets</h3>
+                        <p class="questions">
+                            Q1. Create a program that checks if a given set is a subset of another set.
+                        </p>
+                        <p class="questions">
+                            Q2. Write a program that finds all the unique vowels in a string using a set.
+                        </p>
+                        <p class="questions">
+                            Q3. Create a program that converts a list of numbers with duplicates into a set and then prints the sorted unique values.
+                        </p>
+                        <p class="questions">
+                            Q4. Write a program that converts a set of strings to lowercase and removes duplicates.
+                        </p>
+                        <p class="questions">
+                            Q5. Write a program that checks if all elements in a set are prime numbers.
+                        </p>
+                    </div>
+                    <div class="question-container">
+                        <h3 class="string-problems">Strings</h3>
+                        <p class="questions">
+                            Q1. Write a program that compresses a string using the counts of repeated characters (e.g., "aabcccccaaa" → "a2b1c5a3").
+                        </p>
+                        <p class="questions">
+                            Q2. Create a program that finds the longest substring in a given string that contains no repeating characters.
+                        </p>
+                        <p class="questions">
+                            Q3. Write a program that counts the occurrences of each word in a given sentence and stores the result in a dictionary.
+                        </p>
+                        <p class="questions">
+                            Q4. Create a program that checks if two strings are anagrams (contain the same characters in different order).
+                        </p>
+                        <p class="questions">
+                            Q5. Create a program that counts the number of vowels and consonants in a string.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <button class="scroll-up-button" onclick="topFunction()" id="myBtn" title="Go to top">
+            <div class="top-emoji">&#8682;</div>
+            Top<br>
+        </button>
+    </body>
+</html>
